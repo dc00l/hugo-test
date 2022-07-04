@@ -1,0 +1,228 @@
+[
+  {
+    "canIpForward": false,
+    "confidentialInstanceConfig": {
+      "enableConfidentialCompute": false
+    },
+    "cpuPlatform": "Intel Haswell",
+    "creationTimestamp": "2022-07-03T04:20:34.200-07:00",
+    "deletionProtection": false,
+    "description": "",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "instance-1",
+        "diskSizeGb": "10",
+        "guestOsFeatures": [
+          {
+            "type": "UEFI_COMPATIBLE"
+          },
+          {
+            "type": "VIRTIO_SCSI_MULTIQUEUE"
+          },
+          {
+            "type": "GVNIC"
+          }
+        ],
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/debian-cloud/global/licenses/debian-11-bullseye"
+        ],
+        "mode": "READ_WRITE",
+        "source": "https://www.googleapis.com/compute/v1/projects/serene-courier-331011/zones/us-central1-a/disks/instance-1",
+        "type": "PERSISTENT"
+      }
+    ],
+    "displayDevice": {
+      "enableDisplay": false
+    },
+    "fingerprint": "7w4yMDMo7hY=",
+    "id": "3071800367477736814",
+    "keyRevocationActionType": "NONE",
+    "kind": "compute#instance",
+    "labelFingerprint": "42WmSpB8rSM=",
+    "lastStartTimestamp": "2022-07-03T04:20:39.301-07:00",
+    "machineType": "https://www.googleapis.com/compute/v1/projects/serene-courier-331011/zones/us-central1-a/machineTypes/f1-micro",
+    "metadata": {
+      "fingerprint": "vsCJjxQBTYA=",
+      "items": [
+        {
+          "key": "test123",
+          "value": "456"
+        }
+      ],
+      "kind": "compute#metadata"
+    },
+    "name": "instance-1",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "External NAT",
+            "natIP": "104.154.175.144",
+            "networkTier": "PREMIUM",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "fingerprint": "cFvvPlOyct0=",
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default",
+        "networkIP": "10.128.0.3",
+        "stackType": "IPV4_ONLY",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-central1/subnetworks/default"
+      }
+    ],
+    "reservationAffinity": {
+      "consumeReservationType": "ANY_RESERVATION"
+    },
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false,
+      "provisioningModel": "STANDARD"
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/serene-courier-331011/zones/us-central1-a/instances/instance-1",
+    "serviceAccounts": [
+      {
+        "email": "740535132954-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/servicecontrol",
+          "https://www.googleapis.com/auth/service.management.readonly",
+          "https://www.googleapis.com/auth/trace.append"
+        ]
+      }
+    ],
+    "shieldedInstanceConfig": {
+      "enableIntegrityMonitoring": true,
+      "enableSecureBoot": false,
+      "enableVtpm": true
+    },
+    "shieldedInstanceIntegrityPolicy": {
+      "updateAutoLearnPolicy": true
+    },
+    "startRestricted": false,
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "https://www.googleapis.com/compute/v1/projects/serene-courier-331011/zones/us-central1-a"
+  },
+  {
+    "canIpForward": false,
+    "confidentialInstanceConfig": {
+      "enableConfidentialCompute": false
+    },
+    "cpuPlatform": "Intel Haswell",
+    "creationTimestamp": "2022-07-03T04:23:09.006-07:00",
+    "deletionProtection": false,
+    "description": "",
+    "disks": [
+      {
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "instance-2",
+        "diskSizeGb": "10",
+        "guestOsFeatures": [
+          {
+            "type": "UEFI_COMPATIBLE"
+          },
+          {
+            "type": "VIRTIO_SCSI_MULTIQUEUE"
+          },
+          {
+            "type": "GVNIC"
+          }
+        ],
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/debian-cloud/global/licenses/debian-11-bullseye"
+        ],
+        "mode": "READ_WRITE",
+        "source": "https://www.googleapis.com/compute/v1/projects/serene-courier-331011/zones/us-central1-a/disks/instance-2",
+        "type": "PERSISTENT"
+      }
+    ],
+    "displayDevice": {
+      "enableDisplay": false
+    },
+    "fingerprint": "MhX_JXhDrDg=",
+    "id": "2413092825406948083",
+    "keyRevocationActionType": "NONE",
+    "kind": "compute#instance",
+    "labelFingerprint": "42WmSpB8rSM=",
+    "lastStartTimestamp": "2022-07-03T04:23:14.369-07:00",
+    "machineType": "https://www.googleapis.com/compute/v1/projects/serene-courier-331011/zones/us-central1-a/machineTypes/f1-micro",
+    "metadata": {
+      "fingerprint": "s89OoZyuvoU=",
+      "kind": "compute#metadata"
+    },
+    "name": "instance-2",
+    "networkInterfaces": [
+      {
+        "accessConfigs": [
+          {
+            "kind": "compute#accessConfig",
+            "name": "External NAT",
+            "natIP": "104.154.138.48",
+            "networkTier": "PREMIUM",
+            "type": "ONE_TO_ONE_NAT"
+          }
+        ],
+        "fingerprint": "_mXmnE-MN70=",
+        "kind": "compute#networkInterface",
+        "name": "nic0",
+        "network": "https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default",
+        "networkIP": "10.128.0.4",
+        "stackType": "IPV4_ONLY",
+        "subnetwork": "https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-central1/subnetworks/default"
+      }
+    ],
+    "reservationAffinity": {
+      "consumeReservationType": "ANY_RESERVATION"
+    },
+    "scheduling": {
+      "automaticRestart": true,
+      "onHostMaintenance": "MIGRATE",
+      "preemptible": false,
+      "provisioningModel": "STANDARD"
+    },
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/serene-courier-331011/zones/us-central1-a/instances/instance-2",
+    "serviceAccounts": [
+      {
+        "email": "740535132954-compute@developer.gserviceaccount.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/devstorage.read_only",
+          "https://www.googleapis.com/auth/logging.write",
+          "https://www.googleapis.com/auth/monitoring.write",
+          "https://www.googleapis.com/auth/servicecontrol",
+          "https://www.googleapis.com/auth/service.management.readonly",
+          "https://www.googleapis.com/auth/trace.append"
+        ]
+      }
+    ],
+    "shieldedInstanceConfig": {
+      "enableIntegrityMonitoring": true,
+      "enableSecureBoot": false,
+      "enableVtpm": true
+    },
+    "shieldedInstanceIntegrityPolicy": {
+      "updateAutoLearnPolicy": true
+    },
+    "startRestricted": false,
+    "status": "RUNNING",
+    "tags": {
+      "fingerprint": "42WmSpB8rSM="
+    },
+    "zone": "https://www.googleapis.com/compute/v1/projects/serene-courier-331011/zones/us-central1-a"
+  }
+]
