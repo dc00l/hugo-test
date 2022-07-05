@@ -1,0 +1,16 @@
+<h2>Virtual machines</h2>
+{{ $vms := $.Site.Data.resources.all }}
+{{ range $i, $vm := $vms }}
+{{ $vm.assetType }}
+{{ if eq $vm.assetType "compute.googleapis.com/Network" }}
+{{ . }}
+  <h4>Network</h4>
+  <ul>
+    {{ range $k, $network := $vm.networkInterfaces }}
+      <li>Network: {{ $network.network }}
+      <li>Sub-Network: {{ $network.subnetwork }}
+      <li>NetworkIp: {{ $network.networkIP }}
+    {{ end }}
+  </ul>
+{{ end }}
+{{ end }}
