@@ -53,6 +53,24 @@ UNSPECIFIED_XPN_PROJECT_STATUS</description>
     </item>
     
     <item>
+      <title>Services</title>
+      <link>https://storage.googleapis.com/staging-nightscout/public/storage-buckets/</link>
+      <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
+      
+      <guid>https://storage.googleapis.com/staging-nightscout/public/storage-buckets/</guid>
+      <description>Listing services {{ &amp;lt; list-services &amp;gt; }}</description>
+    </item>
+    
+    <item>
+      <title>Storage Buckets</title>
+      <link>https://storage.googleapis.com/staging-nightscout/public/services/</link>
+      <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
+      
+      <guid>https://storage.googleapis.com/staging-nightscout/public/services/</guid>
+      <description>Listing storage buckets Storage Buckets eu.artifacts.serene-courier-331011.appspot.com (eu) DisplayName: eu.artifacts.serene-courier-331011.appspot.com Location: eu Project: projects/740535132954 Resources acl: [] autoclass: map[] billing: map[] cors: [] defaultObjectAcl: [] encryption: map[] etag: CAI= iamConfiguration: map[bucketPolicyOnly:map[enabled:false] publicAccessPrevention:inherited uniformBucketLevelAccess:map[enabled:false]] id: eu.artifacts.serene-courier-331011.appspot.com kind: storage#bucket labels: map[] lifecycle: map[rule:[map[action:map[type:Delete] condition:map[age:3 matchesPrefix:[] matchesStorageClass:[] matchesSuffix:[]]]]] location: EU locationType: multi-region logging: map[] metageneration: 2 name: eu.artifacts.serene-courier-331011.appspot.com owner: map[] projectNumber: 7.40535132954e+11 retentionPolicy: map[] selfLink: https://www.googleapis.com/storage/v1/b/eu.artifacts.serene-courier-331011.appspot.com storageClass: STANDARD timeCreated: 2022-05-18T05:59:34.753Z updated: 2022-05-30T05:49:47.675Z versioning: map[] website: map[] staging.</description>
+    </item>
+    
+    <item>
       <title>Subnetworks</title>
       <link>https://storage.googleapis.com/staging-nightscout/public/subnetworks/</link>
       <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
