@@ -1,10 +1,92 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Resources on My New Hugo Site</title>
     <link>https://storage.googleapis.com/staging-nightscout/public/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content in Resources on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://storage.googleapis.com/staging-nightscout/public/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 Jul 2022 19:19:00 +0000</lastBuildDate><atom:link href="https://storage.googleapis.com/staging-nightscout/public/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Firewall Rules</title>
+      <link>https://storage.googleapis.com/staging-nightscout/public/firewall/</link>
+      <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
+      
+      <guid>https://storage.googleapis.com/staging-nightscout/public/firewall/</guid>
+      <description>Listing Firewall rules Firewall Rules default-allow-ssh DisplayName: default-allow-ssh Description: Allow SSH from anywhere Location: global Project: projects/740535132954 State: ENABLED allowed Protocol: tcp Ports: [22] denied selfLink: https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/firewalls/default-allow-ssh Creation Timestamp: 2022-07-03T01:05:34.447-07:00 Description: Allow SSH from anywhere Direction: INGRESS Id: 7333154935886639905 disabled: false Name: default-allow-ssh Network: https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default Priority: 65534 Source Ranges: [0.0.0.0/0] default-allow-icmp DisplayName: default-allow-icmp Description: Allow ICMP from anywhere Location: global Project: projects/740535132954 State: ENABLED allowed Protocol: icmp Ports: denied selfLink: https://www.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://storage.googleapis.com/staging-nightscout/public/networks/</link>
+      <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
+      
+      <guid>https://storage.googleapis.com/staging-nightscout/public/networks/</guid>
+      <description>Listing networks Networks map[assetType:compute.googleapis.com/Network createTime:2022-07-03T08:05:06Z description:Default network for the project displayName:default location:global name://compute.googleapis.com/projects/serene-courier-331011/global/networks/default parentAssetType:cloudresourcemanager.googleapis.com/Project parentFullResourceName://cloudresourcemanager.googleapis.com/projects/serene-courier-331011 project:projects/740535132954 versionedResources:[map[resource:map[autoCreateSubnetworks:true creationTimestamp:2022-07-03T01:05:06.599-07:00 description:Default network for the project id:8234776628399240029 name:default networkFirewallPolicyEnforcementOrder:AFTER_CLASSIC_FIREWALL routingConfig:map[routingMode:REGIONAL] selfLink:https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default selfLinkWithId:https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/8234776628399240029 subnetworks:[https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-east1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-east2/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-northeast1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-northeast2/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-northeast3/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-south1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-south2/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-southeast1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-southeast2/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/australia-southeast1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/australia-southeast2/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-central2/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-north1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-southwest1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west2/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west3/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west4/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west6/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west8/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west9/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/northamerica-northeast1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/northamerica-northeast2/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/southamerica-east1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/southamerica-west1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-central1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-east1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-east4/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-east5/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-south1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-west1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-west2/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-west3/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-west4/subnetworks/default]] version:v1]]]
+Network DisplyName: default Location: global Project: projects/740535132954 Auto-Create Subnetworks: Description: Default network for the project selfLink: https://www.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://storage.googleapis.com/staging-nightscout/public/projects/</link>
+      <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
+      
+      <guid>https://storage.googleapis.com/staging-nightscout/public/projects/</guid>
+      <description>Listing project resources Projects map[assetType:compute.googleapis.com/Project createTime:2022-07-03T08:04:56Z displayName:serene-courier-331011 location:global name://compute.googleapis.com/projects/serene-courier-331011 parentAssetType:cloudresourcemanager.googleapis.com/Project parentFullResourceName://cloudresourcemanager.googleapis.com/projects/serene-courier-331011 project:projects/740535132954 versionedResources:[map[resource:map[creationTimestamp:2022-07-03T01:04:56.496-07:00 defaultNetworkTier:PREMIUM defaultServiceAccount:740535132954-compute@developer.gserviceaccount.com id:1525875396643189575 kind:compute#project name:serene-courier-331011 selfLink:https://www.googleapis.com/compute/v1/projects/serene-courier-331011 xpnProjectStatus:UNSPECIFIED_XPN_PROJECT_STATUS] version:v1]]]
+Project DisplyName: serene-courier-331011 Location: global Project: projects/740535132954 map[resource:map[creationTimestamp:2022-07-03T01:04:56.496-07:00 defaultNetworkTier:PREMIUM defaultServiceAccount:740535132954-compute@developer.gserviceaccount.com id:1525875396643189575 kind:compute#project name:serene-courier-331011 selfLink:https://www.googleapis.com/compute/v1/projects/serene-courier-331011 xpnProjectStatus:UNSPECIFIED_XPN_PROJECT_STATUS] version:v1] *Version: v1 2022-07-03T01:04:56.496-07:00
+PREMIUM
+740535132954-compute@developer.gserviceaccount.com
+1525875396643189575
+compute#project
+serene-courier-331011
+https://www.googleapis.com/compute/v1/projects/serene-courier-331011
+UNSPECIFIED_XPN_PROJECT_STATUS</description>
+    </item>
+    
+    <item>
+      <title>Subnetworks</title>
+      <link>https://storage.googleapis.com/staging-nightscout/public/subnetworks/</link>
+      <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
+      
+      <guid>https://storage.googleapis.com/staging-nightscout/public/subnetworks/</guid>
+      <description>Listing subnetworks Subnetworks Subnetwork DisplyName: default Location: us-south1 Project: projects/740535132954 selfLink: https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-south1/subnetworks/default Creation Timestamp: 2022-07-03T01:05:17.024-07:00 Fingerprint: gIrIi4xfvQg= Gateway Address: 10.206.0.1 Id: 9061647657825268562 IP CIDR Range: 10.206.0.0/20 Name: default Network: https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default Private Google Access: false Private Google Access (IP v6): DISABLE_GOOGLE_ACCESS Purpose: PRIVATE Region: https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-south1 Stack Type. IPV4_ONLY Subnetwork DisplyName: default Location: europe-southwest1 Project: projects/740535132954 selfLink: https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-southwest1/subnetworks/default Creation Timestamp: 2022-07-03T01:05:17.161-07:00 Fingerprint: cKsadWWQxKY= Gateway Address: 10.204.0.1 Id: 2576715488653275986 IP CIDR Range: 10.204.0.0/20 Name: default Network: https://www.</description>
+    </item>
+    
+    <item>
+      <title>Vm</title>
+      <link>https://storage.googleapis.com/staging-nightscout/public/_vm/</link>
+      <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
+      
+      <guid>https://storage.googleapis.com/staging-nightscout/public/_vm/</guid>
+      <description>Listing VMs {{ range $.Site.Data.resources.all }}{{ $tpl := print .assetType &amp;ldquo;.html&amp;rdquo; }}{{ partial $tpl . }}{{ end }}</description>
+    </item>
+    
+    <item>
+      <title>Vm</title>
+      <link>https://storage.googleapis.com/staging-nightscout/public/home/about/</link>
+      <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
+      
+      <guid>https://storage.googleapis.com/staging-nightscout/public/home/about/</guid>
+      <description>Testing </description>
+    </item>
+    
+    <item>
+      <title>Vm</title>
+      <link>https://storage.googleapis.com/staging-nightscout/public/home/products/</link>
+      <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
+      
+      <guid>https://storage.googleapis.com/staging-nightscout/public/home/products/</guid>
+      <description>Testing </description>
+    </item>
+    
+    <item>
+      <title>Vm</title>
+      <link>https://storage.googleapis.com/staging-nightscout/public/home/welcome/</link>
+      <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
+      
+      <guid>https://storage.googleapis.com/staging-nightscout/public/home/welcome/</guid>
+      <description>Testing </description>
+    </item>
+    
   </channel>
 </rss>

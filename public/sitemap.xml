@@ -1,12 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://storage.googleapis.com/staging-nightscout/public/categories/</loc>
-  </url>
-  <url>
+    <loc>https://storage.googleapis.com/staging-nightscout/public/firewall/</loc>
+    <lastmod>2022-07-03T19:19:00+00:00</lastmod>
+  </url><url>
+    <loc>https://storage.googleapis.com/staging-nightscout/public/home/</loc>
+    <lastmod>2022-07-03T19:19:00+00:00</lastmod>
+  </url><url>
+    <loc>https://storage.googleapis.com/staging-nightscout/public/networks/</loc>
+    <lastmod>2022-07-03T19:19:00+00:00</lastmod>
+  </url><url>
+    <loc>https://storage.googleapis.com/staging-nightscout/public/projects/</loc>
+    <lastmod>2022-07-03T19:19:00+00:00</lastmod>
+  </url><url>
     <loc>https://storage.googleapis.com/staging-nightscout/public/</loc>
-  </url>
-  <url>
+    <lastmod>2022-07-03T19:19:00+00:00</lastmod>
+  </url><url>
+    <loc>https://storage.googleapis.com/staging-nightscout/public/subnetworks/</loc>
+    <lastmod>2022-07-03T19:19:00+00:00</lastmod>
+  </url><url>
+    <loc>https://storage.googleapis.com/staging-nightscout/public/_vm/</loc>
+    <lastmod>2022-07-03T19:19:00+00:00</lastmod>
+  </url><url>
+    <loc>https://storage.googleapis.com/staging-nightscout/public/home/about/</loc>
+    <lastmod>2022-07-03T19:19:00+00:00</lastmod>
+  </url><url>
+    <loc>https://storage.googleapis.com/staging-nightscout/public/home/products/</loc>
+    <lastmod>2022-07-03T19:19:00+00:00</lastmod>
+  </url><url>
+    <loc>https://storage.googleapis.com/staging-nightscout/public/home/welcome/</loc>
+    <lastmod>2022-07-03T19:19:00+00:00</lastmod>
+  </url><url>
+    <loc>https://storage.googleapis.com/staging-nightscout/public/categories/</loc>
+  </url><url>
     <loc>https://storage.googleapis.com/staging-nightscout/public/tags/</loc>
   </url>
 </urlset>

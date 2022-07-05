@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on My New Hugo Site</title>
+    <link>https://storage.googleapis.com/staging-nightscout/public/home/</link>
+    <description>Recent content in Homes on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 Jul 2022 19:19:00 +0000</lastBuildDate><atom:link href="https://storage.googleapis.com/staging-nightscout/public/home/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vm</title>
+      <link>https://storage.googleapis.com/staging-nightscout/public/home/about/</link>
+      <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
+      
+      <guid>https://storage.googleapis.com/staging-nightscout/public/home/about/</guid>
+      <description>Testing </description>
+    </item>
+    
+    <item>
+      <title>Vm</title>
+      <link>https://storage.googleapis.com/staging-nightscout/public/home/products/</link>
+      <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
+      
+      <guid>https://storage.googleapis.com/staging-nightscout/public/home/products/</guid>
+      <description>Testing </description>
+    </item>
+    
+    <item>
+      <title>Vm</title>
+      <link>https://storage.googleapis.com/staging-nightscout/public/home/welcome/</link>
+      <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
+      
+      <guid>https://storage.googleapis.com/staging-nightscout/public/home/welcome/</guid>
+      <description>Testing </description>
+    </item>
+    
+  </channel>
+</rss>

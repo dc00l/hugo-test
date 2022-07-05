@@ -1,123 +1,911 @@
-<!doctype html>
-<html lang="en-us">
-<head>
-	<meta name="generator" content="Hugo 0.101.0" />
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<meta name="hugo-theme" content="Axiom 0.8.0">
+<h1 id="listing-firewall-rules">Listing Firewall rules</h1>
+<h2 id="firewall-rules">Firewall Rules</h2>
+<h3 id="default-allow-ssh">default-allow-ssh</h3>
+<ul>
+<li>DisplayName: default-allow-ssh</li>
+<li>Description: Allow SSH from anywhere</li>
+<li>Location: global</li>
+<li>Project: projects/740535132954</li>
+<li>State: ENABLED</li>
+</ul>
+<h4 id="allowed">allowed</h4>
+<ul>
+<li>Protocol: tcp</li>
+<li>Ports: [22]</li>
+</ul>
+<h4 id="denied">denied</h4>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/firewalls/default-allow-ssh">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/firewalls/default-allow-ssh</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:34.447-07:00</li>
+<li>Description: Allow SSH from anywhere</li>
+<li>Direction: INGRESS</li>
+<li>Id: 7333154935886639905</li>
+<li>disabled: false</li>
+<li>Name: default-allow-ssh</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Priority: 65534</li>
+<li>Source Ranges: [0.0.0.0/0]</li>
+</ul>
+<h3 id="default-allow-icmp">default-allow-icmp</h3>
+<ul>
+<li>DisplayName: default-allow-icmp</li>
+<li>Description: Allow ICMP from anywhere</li>
+<li>Location: global</li>
+<li>Project: projects/740535132954</li>
+<li>State: ENABLED</li>
+</ul>
+<h4 id="allowed-1">allowed</h4>
+<ul>
+<li>Protocol: icmp</li>
+<li>Ports:</li>
+</ul>
+<h4 id="denied-1">denied</h4>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/firewalls/default-allow-icmp">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/firewalls/default-allow-icmp</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:34.564-07:00</li>
+<li>Description: Allow ICMP from anywhere</li>
+<li>Direction: INGRESS</li>
+<li>Id: 7061650352091493153</li>
+<li>disabled: false</li>
+<li>Name: default-allow-icmp</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Priority: 65534</li>
+<li>Source Ranges: [0.0.0.0/0]</li>
+</ul>
+<h3 id="default-allow-internal">default-allow-internal</h3>
+<ul>
+<li>DisplayName: default-allow-internal</li>
+<li>Description: Allow internal traffic on the default network</li>
+<li>Location: global</li>
+<li>Project: projects/740535132954</li>
+<li>State: ENABLED</li>
+</ul>
+<h4 id="allowed-2">allowed</h4>
+<ul>
+<li>Protocol: tcp</li>
+<li>Ports: [0-65535]</li>
+<li>Protocol: udp</li>
+<li>Ports: [0-65535]</li>
+<li>Protocol: icmp</li>
+<li>Ports:</li>
+</ul>
+<h4 id="denied-2">denied</h4>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/firewalls/default-allow-internal">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/firewalls/default-allow-internal</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:34.389-07:00</li>
+<li>Description: Allow internal traffic on the default network</li>
+<li>Direction: INGRESS</li>
+<li>Id: 6144457972906783521</li>
+<li>disabled: false</li>
+<li>Name: default-allow-internal</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Priority: 65534</li>
+<li>Source Ranges: [10.128.0.0/9]</li>
+</ul>
+<h3 id="default-allow-rdp">default-allow-rdp</h3>
+<ul>
+<li>DisplayName: default-allow-rdp</li>
+<li>Description: Allow RDP from anywhere</li>
+<li>Location: global</li>
+<li>Project: projects/740535132954</li>
+<li>State: ENABLED</li>
+</ul>
+<h4 id="allowed-3">allowed</h4>
+<ul>
+<li>Protocol: tcp</li>
+<li>Ports: [3389]</li>
+</ul>
+<h4 id="denied-3">denied</h4>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/firewalls/default-allow-rdp">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/firewalls/default-allow-rdp</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:34.506-07:00</li>
+<li>Description: Allow RDP from anywhere</li>
+<li>Direction: INGRESS</li>
+<li>Id: 5829193006714778401</li>
+<li>disabled: false</li>
+<li>Name: default-allow-rdp</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Priority: 65534</li>
+<li>Source Ranges: [0.0.0.0/0]</li>
+</ul>
+<h1 id="listing-networks">Listing networks</h1>
+<h2 id="networks">Networks</h2>
+<p>map[assetType:compute.googleapis.com/Network createTime:2022-07-03T08:05:06Z description:Default network for the project displayName:default location:global name://compute.googleapis.com/projects/serene-courier-331011/global/networks/default parentAssetType:cloudresourcemanager.googleapis.com/Project parentFullResourceName://cloudresourcemanager.googleapis.com/projects/serene-courier-331011 project:projects/740535132954 versionedResources:[map[resource:map[autoCreateSubnetworks:true creationTimestamp:2022-07-03T01:05:06.599-07:00 description:Default network for the project id:8234776628399240029 name:default networkFirewallPolicyEnforcementOrder:AFTER_CLASSIC_FIREWALL routingConfig:map[routingMode:REGIONAL] selfLink:https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default selfLinkWithId:https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/8234776628399240029 subnetworks:[https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-east1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-east2/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-northeast1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-northeast2/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-northeast3/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-south1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-south2/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-southeast1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-southeast2/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/australia-southeast1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/australia-southeast2/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-central2/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-north1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-southwest1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west2/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west3/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west4/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west6/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west8/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west9/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/northamerica-northeast1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/northamerica-northeast2/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/southamerica-east1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/southamerica-west1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-central1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-east1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-east4/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-east5/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-south1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-west1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-west2/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-west3/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-west4/subnetworks/default]] version:v1]]]</p>
+<h3 id="network">Network</h3>
+<ul>
+<li>DisplyName: default</li>
+<li>Location: global</li>
+<li>Project: projects/740535132954</li>
+</ul>
+<ul>
+<li>Auto-Create Subnetworks:</li>
+<li>Description: Default network for the project</li>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:06.599-07:00</li>
+<li>Fingerprint:</li>
+<li>Gateway Address:</li>
+<li>Id: 8234776628399240029</li>
+<li>IP CIDR Range:</li>
+<li>Name: default</li>
+<li>Network:</li>
+<li>Private Google  Access:</li>
+<li>Private Google Access (IP v6):</li>
+<li>Purpose:</li>
+<li>Region:</li>
+<li>Stack Type.</li>
+</ul>
+<h3 id="subnetworks">Subnetworks</h3>
+<ul>
+<li><a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-east1/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-east1/subnetworks/default</a></li>
+<li><a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-east2/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-east2/subnetworks/default</a></li>
+<li><a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-northeast1/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-northeast1/subnetworks/default</a></li>
+<li><a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-northeast2/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-northeast2/subnetworks/default</a></li>
+<li><a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-northeast3/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-northeast3/subnetworks/default</a></li>
+<li><a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-south1/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-south1/subnetworks/default</a></li>
+<li><a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-south2/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-south2/subnetworks/default</a></li>
+<li><a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-southeast1/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-southeast1/subnetworks/default</a></li>
+<li><a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-southeast2/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-southeast2/subnetworks/default</a></li>
+<li><a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/australia-southeast1/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/australia-southeast1/subnetworks/default</a></li>
+<li><a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/australia-southeast2/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/australia-southeast2/subnetworks/default</a></li>
+<li><a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-central2/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-central2/subnetworks/default</a></li>
+<li><a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-north1/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-north1/subnetworks/default</a></li>
+<li><a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-southwest1/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-southwest1/subnetworks/default</a></li>
+<li><a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west1/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west1/subnetworks/default</a></li>
+<li><a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west2/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west2/subnetworks/default</a></li>
+<li><a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west3/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west3/subnetworks/default</a></li>
+<li><a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west4/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west4/subnetworks/default</a></li>
+<li><a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west6/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west6/subnetworks/default</a></li>
+<li><a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west8/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west8/subnetworks/default</a></li>
+<li><a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west9/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west9/subnetworks/default</a></li>
+<li><a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/northamerica-northeast1/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/northamerica-northeast1/subnetworks/default</a></li>
+<li><a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/northamerica-northeast2/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/northamerica-northeast2/subnetworks/default</a></li>
+<li><a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/southamerica-east1/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/southamerica-east1/subnetworks/default</a></li>
+<li><a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/southamerica-west1/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/southamerica-west1/subnetworks/default</a></li>
+<li><a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-central1/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-central1/subnetworks/default</a></li>
+<li><a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-east1/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-east1/subnetworks/default</a></li>
+<li><a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-east4/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-east4/subnetworks/default</a></li>
+<li><a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-east5/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-east5/subnetworks/default</a></li>
+<li><a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-south1/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-south1/subnetworks/default</a></li>
+<li><a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-west1/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-west1/subnetworks/default</a></li>
+<li><a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-west2/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-west2/subnetworks/default</a></li>
+<li><a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-west3/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-west3/subnetworks/default</a></li>
+<li><a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-west4/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-west4/subnetworks/default</a></li>
+</ul>
+<h1 id="listing-project-resources">Listing project resources</h1>
+<h2 id="projects">Projects</h2>
+<p>map[assetType:compute.googleapis.com/Project createTime:2022-07-03T08:04:56Z displayName:serene-courier-331011 location:global name://compute.googleapis.com/projects/serene-courier-331011 parentAssetType:cloudresourcemanager.googleapis.com/Project parentFullResourceName://cloudresourcemanager.googleapis.com/projects/serene-courier-331011 project:projects/740535132954 versionedResources:[map[resource:map[creationTimestamp:2022-07-03T01:04:56.496-07:00 defaultNetworkTier:PREMIUM defaultServiceAccount:740535132954-compute@developer.gserviceaccount.com id:1525875396643189575 kind:compute#project name:serene-courier-331011 selfLink:https://www.googleapis.com/compute/v1/projects/serene-courier-331011 xpnProjectStatus:UNSPECIFIED_XPN_PROJECT_STATUS] version:v1]]]</p>
+<h3 id="project">Project</h3>
+<ul>
+<li>DisplyName: serene-courier-331011</li>
+<li>Location: global</li>
+<li>Project: projects/740535132954
+map[resource:map[creationTimestamp:2022-07-03T01:04:56.496-07:00 defaultNetworkTier:PREMIUM defaultServiceAccount:740535132954-compute@developer.gserviceaccount.com id:1525875396643189575 kind:compute#project name:serene-courier-331011 selfLink:https://www.googleapis.com/compute/v1/projects/serene-courier-331011 xpnProjectStatus:UNSPECIFIED_XPN_PROJECT_STATUS] version:v1]
+*Version: v1</li>
+</ul>
+<p>2022-07-03T01:04:56.496-07:00</p>
+<p>PREMIUM</p>
+<p><a href="mailto:740535132954-compute@developer.gserviceaccount.com">740535132954-compute@developer.gserviceaccount.com</a></p>
+<p>1525875396643189575</p>
+<p>compute#project</p>
+<p>serene-courier-331011</p>
+<p><a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011">https://www.googleapis.com/compute/v1/projects/serene-courier-331011</a></p>
+<p>UNSPECIFIED_XPN_PROJECT_STATUS</p>
+<h1 id="listing-subnetworks">Listing subnetworks</h1>
+<h2 id="subnetworks">Subnetworks</h2>
+<h3 id="subnetwork">Subnetwork</h3>
+<ul>
+<li>DisplyName: default</li>
+<li>Location: us-south1</li>
+<li>Project: projects/740535132954</li>
+</ul>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-south1/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-south1/subnetworks/default</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:17.024-07:00</li>
+<li>Fingerprint: gIrIi4xfvQg=</li>
+<li>Gateway Address: 10.206.0.1</li>
+<li>Id: 9061647657825268562</li>
+<li>IP CIDR Range: 10.206.0.0/20</li>
+<li>Name: default</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Private Google  Access: false</li>
+<li>Private Google Access (IP v6): DISABLE_GOOGLE_ACCESS</li>
+<li>Purpose: PRIVATE</li>
+<li>Region: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-south1">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-south1</a></li>
+<li>Stack Type. IPV4_ONLY</li>
+</ul>
+<h3 id="subnetwork-1">Subnetwork</h3>
+<ul>
+<li>DisplyName: default</li>
+<li>Location: europe-southwest1</li>
+<li>Project: projects/740535132954</li>
+</ul>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-southwest1/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-southwest1/subnetworks/default</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:17.161-07:00</li>
+<li>Fingerprint: cKsadWWQxKY=</li>
+<li>Gateway Address: 10.204.0.1</li>
+<li>Id: 2576715488653275986</li>
+<li>IP CIDR Range: 10.204.0.0/20</li>
+<li>Name: default</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Private Google  Access: false</li>
+<li>Private Google Access (IP v6): DISABLE_GOOGLE_ACCESS</li>
+<li>Purpose: PRIVATE</li>
+<li>Region: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-southwest1">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-southwest1</a></li>
+<li>Stack Type. IPV4_ONLY</li>
+</ul>
+<h3 id="subnetwork-2">Subnetwork</h3>
+<ul>
+<li>DisplyName: default</li>
+<li>Location: us-east5</li>
+<li>Project: projects/740535132954</li>
+</ul>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-east5/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-east5/subnetworks/default</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:17.123-07:00</li>
+<li>Fingerprint: TJu9cnbvHwc=</li>
+<li>Gateway Address: 10.202.0.1</li>
+<li>Id: 1069431578371617618</li>
+<li>IP CIDR Range: 10.202.0.0/20</li>
+<li>Name: default</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Private Google  Access: false</li>
+<li>Private Google Access (IP v6): DISABLE_GOOGLE_ACCESS</li>
+<li>Purpose: PRIVATE</li>
+<li>Region: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-east5">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-east5</a></li>
+<li>Stack Type. IPV4_ONLY</li>
+</ul>
+<h3 id="subnetwork-3">Subnetwork</h3>
+<ul>
+<li>DisplyName: default</li>
+<li>Location: europe-west8</li>
+<li>Project: projects/740535132954</li>
+</ul>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west8/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west8/subnetworks/default</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:17.171-07:00</li>
+<li>Fingerprint: ow-RBsGx-3Y=</li>
+<li>Gateway Address: 10.198.0.1</li>
+<li>Id: 8789202278623802194</li>
+<li>IP CIDR Range: 10.198.0.0/20</li>
+<li>Name: default</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Private Google  Access: false</li>
+<li>Private Google Access (IP v6): DISABLE_GOOGLE_ACCESS</li>
+<li>Purpose: PRIVATE</li>
+<li>Region: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west8">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west8</a></li>
+<li>Stack Type. IPV4_ONLY</li>
+</ul>
+<h3 id="subnetwork-4">Subnetwork</h3>
+<ul>
+<li>DisplyName: default</li>
+<li>Location: southamerica-west1</li>
+<li>Project: projects/740535132954</li>
+</ul>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/southamerica-west1/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/southamerica-west1/subnetworks/default</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:17.117-07:00</li>
+<li>Fingerprint: FXcdkm8N06k=</li>
+<li>Gateway Address: 10.194.0.1</li>
+<li>Id: 2211050893718909778</li>
+<li>IP CIDR Range: 10.194.0.0/20</li>
+<li>Name: default</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Private Google  Access: false</li>
+<li>Private Google Access (IP v6): DISABLE_GOOGLE_ACCESS</li>
+<li>Purpose: PRIVATE</li>
+<li>Region: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/southamerica-west1">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/southamerica-west1</a></li>
+<li>Stack Type. IPV4_ONLY</li>
+</ul>
+<h3 id="subnetwork-5">Subnetwork</h3>
+<ul>
+<li>DisplyName: default</li>
+<li>Location: australia-southeast2</li>
+<li>Project: projects/740535132954</li>
+</ul>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/australia-southeast2/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/australia-southeast2/subnetworks/default</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:17.213-07:00</li>
+<li>Fingerprint: wJzMDgrQ6KE=</li>
+<li>Gateway Address: 10.192.0.1</li>
+<li>Id: 9170384933996000082</li>
+<li>IP CIDR Range: 10.192.0.0/20</li>
+<li>Name: default</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Private Google  Access: false</li>
+<li>Private Google Access (IP v6): DISABLE_GOOGLE_ACCESS</li>
+<li>Purpose: PRIVATE</li>
+<li>Region: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/australia-southeast2">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/australia-southeast2</a></li>
+<li>Stack Type. IPV4_ONLY</li>
+</ul>
+<h3 id="subnetwork-6">Subnetwork</h3>
+<ul>
+<li>DisplyName: default</li>
+<li>Location: asia-south2</li>
+<li>Project: projects/740535132954</li>
+</ul>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-south2/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-south2/subnetworks/default</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:17.290-07:00</li>
+<li>Fingerprint: QG7Z7MoYUkY=</li>
+<li>Gateway Address: 10.190.0.1</li>
+<li>Id: 5256187212003603282</li>
+<li>IP CIDR Range: 10.190.0.0/20</li>
+<li>Name: default</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Private Google  Access: false</li>
+<li>Private Google Access (IP v6): DISABLE_GOOGLE_ACCESS</li>
+<li>Purpose: PRIVATE</li>
+<li>Region: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-south2">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-south2</a></li>
+<li>Stack Type. IPV4_ONLY</li>
+</ul>
+<h3 id="subnetwork-7">Subnetwork</h3>
+<ul>
+<li>DisplyName: default</li>
+<li>Location: northamerica-northeast2</li>
+<li>Project: projects/740535132954</li>
+</ul>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/northamerica-northeast2/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/northamerica-northeast2/subnetworks/default</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:17.055-07:00</li>
+<li>Fingerprint: AxvlyGCJzm0=</li>
+<li>Gateway Address: 10.188.0.1</li>
+<li>Id: 2386844549389284178</li>
+<li>IP CIDR Range: 10.188.0.0/20</li>
+<li>Name: default</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Private Google  Access: false</li>
+<li>Private Google Access (IP v6): DISABLE_GOOGLE_ACCESS</li>
+<li>Purpose: PRIVATE</li>
+<li>Region: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/northamerica-northeast2">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/northamerica-northeast2</a></li>
+<li>Stack Type. IPV4_ONLY</li>
+</ul>
+<h3 id="subnetwork-8">Subnetwork</h3>
+<ul>
+<li>DisplyName: default</li>
+<li>Location: europe-central2</li>
+<li>Project: projects/740535132954</li>
+</ul>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-central2/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-central2/subnetworks/default</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:17.228-07:00</li>
+<li>Fingerprint: KjAD21ZRnS8=</li>
+<li>Gateway Address: 10.186.0.1</li>
+<li>Id: 5264065144097141586</li>
+<li>IP CIDR Range: 10.186.0.0/20</li>
+<li>Name: default</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Private Google  Access: false</li>
+<li>Private Google Access (IP v6): DISABLE_GOOGLE_ACCESS</li>
+<li>Purpose: PRIVATE</li>
+<li>Region: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-central2">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-central2</a></li>
+<li>Stack Type. IPV4_ONLY</li>
+</ul>
+<h3 id="subnetwork-9">Subnetwork</h3>
+<ul>
+<li>DisplyName: default</li>
+<li>Location: asia-southeast2</li>
+<li>Project: projects/740535132954</li>
+</ul>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-southeast2/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-southeast2/subnetworks/default</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:17.338-07:00</li>
+<li>Fingerprint: mkA-kiupj8s=</li>
+<li>Gateway Address: 10.184.0.1</li>
+<li>Id: 4274832423758132050</li>
+<li>IP CIDR Range: 10.184.0.0/20</li>
+<li>Name: default</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Private Google  Access: false</li>
+<li>Private Google Access (IP v6): DISABLE_GOOGLE_ACCESS</li>
+<li>Purpose: PRIVATE</li>
+<li>Region: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-southeast2">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-southeast2</a></li>
+<li>Stack Type. IPV4_ONLY</li>
+</ul>
+<h3 id="subnetwork-10">Subnetwork</h3>
+<ul>
+<li>DisplyName: default</li>
+<li>Location: us-west3</li>
+<li>Project: projects/740535132954</li>
+</ul>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-west3/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-west3/subnetworks/default</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:17.067-07:00</li>
+<li>Fingerprint: 1wZF3zxZxms=</li>
+<li>Gateway Address: 10.180.0.1</li>
+<li>Id: 3432536191087211346</li>
+<li>IP CIDR Range: 10.180.0.0/20</li>
+<li>Name: default</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Private Google  Access: false</li>
+<li>Private Google Access (IP v6): DISABLE_GOOGLE_ACCESS</li>
+<li>Purpose: PRIVATE</li>
+<li>Region: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-west3">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-west3</a></li>
+<li>Stack Type. IPV4_ONLY</li>
+</ul>
+<h3 id="subnetwork-11">Subnetwork</h3>
+<ul>
+<li>DisplyName: default</li>
+<li>Location: asia-northeast3</li>
+<li>Project: projects/740535132954</li>
+</ul>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-northeast3/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-northeast3/subnetworks/default</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:17.258-07:00</li>
+<li>Fingerprint: FPfVTHTyYF4=</li>
+<li>Gateway Address: 10.178.0.1</li>
+<li>Id: 5076793398781604690</li>
+<li>IP CIDR Range: 10.178.0.0/20</li>
+<li>Name: default</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Private Google  Access: false</li>
+<li>Private Google Access (IP v6): DISABLE_GOOGLE_ACCESS</li>
+<li>Purpose: PRIVATE</li>
+<li>Region: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-northeast3">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-northeast3</a></li>
+<li>Stack Type. IPV4_ONLY</li>
+</ul>
+<h3 id="subnetwork-12">Subnetwork</h3>
+<ul>
+<li>DisplyName: default</li>
+<li>Location: asia-northeast2</li>
+<li>Project: projects/740535132954</li>
+</ul>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-northeast2/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-northeast2/subnetworks/default</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:17.125-07:00</li>
+<li>Fingerprint: 61Uh18VfedY=</li>
+<li>Gateway Address: 10.174.0.1</li>
+<li>Id: 3516545665497625426</li>
+<li>IP CIDR Range: 10.174.0.0/20</li>
+<li>Name: default</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Private Google  Access: false</li>
+<li>Private Google Access (IP v6): DISABLE_GOOGLE_ACCESS</li>
+<li>Purpose: PRIVATE</li>
+<li>Region: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-northeast2">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-northeast2</a></li>
+<li>Stack Type. IPV4_ONLY</li>
+</ul>
+<h3 id="subnetwork-13">Subnetwork</h3>
+<ul>
+<li>DisplyName: default</li>
+<li>Location: europe-west6</li>
+<li>Project: projects/740535132954</li>
+</ul>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west6/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west6/subnetworks/default</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:17.082-07:00</li>
+<li>Fingerprint: lR6g6OFHV6I=</li>
+<li>Gateway Address: 10.172.0.1</li>
+<li>Id: 6832333398093919058</li>
+<li>IP CIDR Range: 10.172.0.0/20</li>
+<li>Name: default</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Private Google  Access: false</li>
+<li>Private Google Access (IP v6): DISABLE_GOOGLE_ACCESS</li>
+<li>Purpose: PRIVATE</li>
+<li>Region: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west6">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west6</a></li>
+<li>Stack Type. IPV4_ONLY</li>
+</ul>
+<h3 id="subnetwork-14">Subnetwork</h3>
+<ul>
+<li>DisplyName: default</li>
+<li>Location: asia-east2</li>
+<li>Project: projects/740535132954</li>
+</ul>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-east2/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-east2/subnetworks/default</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:17.198-07:00</li>
+<li>Fingerprint: J-7phtcQUto=</li>
+<li>Gateway Address: 10.170.0.1</li>
+<li>Id: 6223955597057651538</li>
+<li>IP CIDR Range: 10.170.0.0/20</li>
+<li>Name: default</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Private Google  Access: false</li>
+<li>Private Google Access (IP v6): DISABLE_GOOGLE_ACCESS</li>
+<li>Purpose: PRIVATE</li>
+<li>Region: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-east2">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-east2</a></li>
+<li>Stack Type. IPV4_ONLY</li>
+</ul>
+<h3 id="subnetwork-15">Subnetwork</h3>
+<ul>
+<li>DisplyName: default</li>
+<li>Location: us-west2</li>
+<li>Project: projects/740535132954</li>
+</ul>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-west2/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-west2/subnetworks/default</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:17.060-07:00</li>
+<li>Fingerprint: CRIGH5xRWrI=</li>
+<li>Gateway Address: 10.168.0.1</li>
+<li>Id: 971357250002940754</li>
+<li>IP CIDR Range: 10.168.0.0/20</li>
+<li>Name: default</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Private Google  Access: false</li>
+<li>Private Google Access (IP v6): DISABLE_GOOGLE_ACCESS</li>
+<li>Purpose: PRIVATE</li>
+<li>Region: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-west2">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-west2</a></li>
+<li>Stack Type. IPV4_ONLY</li>
+</ul>
+<h3 id="subnetwork-16">Subnetwork</h3>
+<ul>
+<li>DisplyName: default</li>
+<li>Location: europe-north1</li>
+<li>Project: projects/740535132954</li>
+</ul>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-north1/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-north1/subnetworks/default</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:17.204-07:00</li>
+<li>Fingerprint: kFBY06raSNU=</li>
+<li>Gateway Address: 10.166.0.1</li>
+<li>Id: 3944333543574664018</li>
+<li>IP CIDR Range: 10.166.0.0/20</li>
+<li>Name: default</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Private Google  Access: false</li>
+<li>Private Google Access (IP v6): DISABLE_GOOGLE_ACCESS</li>
+<li>Purpose: PRIVATE</li>
+<li>Region: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-north1">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-north1</a></li>
+<li>Stack Type. IPV4_ONLY</li>
+</ul>
+<h3 id="subnetwork-17">Subnetwork</h3>
+<ul>
+<li>DisplyName: default</li>
+<li>Location: europe-west4</li>
+<li>Project: projects/740535132954</li>
+</ul>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west4/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west4/subnetworks/default</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:17.099-07:00</li>
+<li>Fingerprint: AbGXX0qjZL4=</li>
+<li>Gateway Address: 10.164.0.1</li>
+<li>Id: 5058176777137746770</li>
+<li>IP CIDR Range: 10.164.0.0/20</li>
+<li>Name: default</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Private Google  Access: false</li>
+<li>Private Google Access (IP v6): DISABLE_GOOGLE_ACCESS</li>
+<li>Purpose: PRIVATE</li>
+<li>Region: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west4">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west4</a></li>
+<li>Stack Type. IPV4_ONLY</li>
+</ul>
+<h3 id="subnetwork-18">Subnetwork</h3>
+<ul>
+<li>DisplyName: default</li>
+<li>Location: northamerica-northeast1</li>
+<li>Project: projects/740535132954</li>
+</ul>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/northamerica-northeast1/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/northamerica-northeast1/subnetworks/default</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:17.129-07:00</li>
+<li>Fingerprint: LBqOp5jPV0U=</li>
+<li>Gateway Address: 10.162.0.1</li>
+<li>Id: 1342467760389419858</li>
+<li>IP CIDR Range: 10.162.0.0/20</li>
+<li>Name: default</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Private Google  Access: false</li>
+<li>Private Google Access (IP v6): DISABLE_GOOGLE_ACCESS</li>
+<li>Purpose: PRIVATE</li>
+<li>Region: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/northamerica-northeast1">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/northamerica-northeast1</a></li>
+<li>Stack Type. IPV4_ONLY</li>
+</ul>
+<h3 id="subnetwork-19">Subnetwork</h3>
+<ul>
+<li>DisplyName: default</li>
+<li>Location: asia-south1</li>
+<li>Project: projects/740535132954</li>
+</ul>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-south1/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-south1/subnetworks/default</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:17.238-07:00</li>
+<li>Fingerprint: bqYLR1MMFu0=</li>
+<li>Gateway Address: 10.160.0.1</li>
+<li>Id: 7205954514433405778</li>
+<li>IP CIDR Range: 10.160.0.0/20</li>
+<li>Name: default</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Private Google  Access: false</li>
+<li>Private Google Access (IP v6): DISABLE_GOOGLE_ACCESS</li>
+<li>Purpose: PRIVATE</li>
+<li>Region: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-south1">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-south1</a></li>
+<li>Stack Type. IPV4_ONLY</li>
+</ul>
+<h3 id="subnetwork-20">Subnetwork</h3>
+<ul>
+<li>DisplyName: default</li>
+<li>Location: southamerica-east1</li>
+<li>Project: projects/740535132954</li>
+</ul>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/southamerica-east1/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/southamerica-east1/subnetworks/default</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:17.023-07:00</li>
+<li>Fingerprint: Tm4XyA4wvLU=</li>
+<li>Gateway Address: 10.158.0.1</li>
+<li>Id: 4486233342587237202</li>
+<li>IP CIDR Range: 10.158.0.0/20</li>
+<li>Name: default</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Private Google  Access: false</li>
+<li>Private Google Access (IP v6): DISABLE_GOOGLE_ACCESS</li>
+<li>Purpose: PRIVATE</li>
+<li>Region: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/southamerica-east1">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/southamerica-east1</a></li>
+<li>Stack Type. IPV4_ONLY</li>
+</ul>
+<h3 id="subnetwork-21">Subnetwork</h3>
+<ul>
+<li>DisplyName: default</li>
+<li>Location: australia-southeast1</li>
+<li>Project: projects/740535132954</li>
+</ul>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/australia-southeast1/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/australia-southeast1/subnetworks/default</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:17.183-07:00</li>
+<li>Fingerprint: oIq3QlQM1ko=</li>
+<li>Gateway Address: 10.152.0.1</li>
+<li>Id: 8006991448717980498</li>
+<li>IP CIDR Range: 10.152.0.0/20</li>
+<li>Name: default</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Private Google  Access: false</li>
+<li>Private Google Access (IP v6): DISABLE_GOOGLE_ACCESS</li>
+<li>Purpose: PRIVATE</li>
+<li>Region: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/australia-southeast1">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/australia-southeast1</a></li>
+<li>Stack Type. IPV4_ONLY</li>
+</ul>
+<h3 id="subnetwork-22">Subnetwork</h3>
+<ul>
+<li>DisplyName: default</li>
+<li>Location: asia-southeast1</li>
+<li>Project: projects/740535132954</li>
+</ul>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-southeast1/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-southeast1/subnetworks/default</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:17.114-07:00</li>
+<li>Fingerprint: MJFvvURyn4w=</li>
+<li>Gateway Address: 10.148.0.1</li>
+<li>Id: 8689683020177535826</li>
+<li>IP CIDR Range: 10.148.0.0/20</li>
+<li>Name: default</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Private Google  Access: false</li>
+<li>Private Google Access (IP v6): DISABLE_GOOGLE_ACCESS</li>
+<li>Purpose: PRIVATE</li>
+<li>Region: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-southeast1">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-southeast1</a></li>
+<li>Stack Type. IPV4_ONLY</li>
+</ul>
+<h3 id="subnetwork-23">Subnetwork</h3>
+<ul>
+<li>DisplyName: default</li>
+<li>Location: asia-northeast1</li>
+<li>Project: projects/740535132954</li>
+</ul>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-northeast1/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-northeast1/subnetworks/default</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:17.040-07:00</li>
+<li>Fingerprint: Ukb8xWuRD-M=</li>
+<li>Gateway Address: 10.146.0.1</li>
+<li>Id: 5223058767744922450</li>
+<li>IP CIDR Range: 10.146.0.0/20</li>
+<li>Name: default</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Private Google  Access: false</li>
+<li>Private Google Access (IP v6): DISABLE_GOOGLE_ACCESS</li>
+<li>Purpose: PRIVATE</li>
+<li>Region: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-northeast1">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-northeast1</a></li>
+<li>Stack Type. IPV4_ONLY</li>
+</ul>
+<h3 id="subnetwork-24">Subnetwork</h3>
+<ul>
+<li>DisplyName: default</li>
+<li>Location: us-east1</li>
+<li>Project: projects/740535132954</li>
+</ul>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-east1/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-east1/subnetworks/default</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:17.093-07:00</li>
+<li>Fingerprint: mrFu8cCALz4=</li>
+<li>Gateway Address: 10.142.0.1</li>
+<li>Id: 1417283075618698066</li>
+<li>IP CIDR Range: 10.142.0.0/20</li>
+<li>Name: default</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Private Google  Access: false</li>
+<li>Private Google Access (IP v6): DISABLE_GOOGLE_ACCESS</li>
+<li>Purpose: PRIVATE</li>
+<li>Region: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-east1">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-east1</a></li>
+<li>Stack Type. IPV4_ONLY</li>
+</ul>
+<h3 id="subnetwork-25">Subnetwork</h3>
+<ul>
+<li>DisplyName: default</li>
+<li>Location: asia-east1</li>
+<li>Project: projects/740535132954</li>
+</ul>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-east1/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-east1/subnetworks/default</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:17.135-07:00</li>
+<li>Fingerprint: MDuP9QdYdQ4=</li>
+<li>Gateway Address: 10.140.0.1</li>
+<li>Id: 901240723484767058</li>
+<li>IP CIDR Range: 10.140.0.0/20</li>
+<li>Name: default</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Private Google  Access: false</li>
+<li>Private Google Access (IP v6): DISABLE_GOOGLE_ACCESS</li>
+<li>Purpose: PRIVATE</li>
+<li>Region: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-east1">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-east1</a></li>
+<li>Stack Type. IPV4_ONLY</li>
+</ul>
+<h3 id="subnetwork-26">Subnetwork</h3>
+<ul>
+<li>DisplyName: default</li>
+<li>Location: us-west1</li>
+<li>Project: projects/740535132954</li>
+</ul>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-west1/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-west1/subnetworks/default</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:17.349-07:00</li>
+<li>Fingerprint: uGLD-v8-LOY=</li>
+<li>Gateway Address: 10.138.0.1</li>
+<li>Id: 3136644271884268370</li>
+<li>IP CIDR Range: 10.138.0.0/20</li>
+<li>Name: default</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Private Google  Access: false</li>
+<li>Private Google Access (IP v6): DISABLE_GOOGLE_ACCESS</li>
+<li>Purpose: PRIVATE</li>
+<li>Region: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-west1">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-west1</a></li>
+<li>Stack Type. IPV4_ONLY</li>
+</ul>
+<h3 id="subnetwork-27">Subnetwork</h3>
+<ul>
+<li>DisplyName: default</li>
+<li>Location: europe-west1</li>
+<li>Project: projects/740535132954</li>
+</ul>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west1/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west1/subnetworks/default</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:17.059-07:00</li>
+<li>Fingerprint: w65r5m9NoBI=</li>
+<li>Gateway Address: 10.132.0.1</li>
+<li>Id: 6714723002957493074</li>
+<li>IP CIDR Range: 10.132.0.0/20</li>
+<li>Name: default</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Private Google  Access: false</li>
+<li>Private Google Access (IP v6): DISABLE_GOOGLE_ACCESS</li>
+<li>Purpose: PRIVATE</li>
+<li>Region: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west1">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west1</a></li>
+<li>Stack Type. IPV4_ONLY</li>
+</ul>
+<h3 id="subnetwork-28">Subnetwork</h3>
+<ul>
+<li>DisplyName: default</li>
+<li>Location: europe-west9</li>
+<li>Project: projects/740535132954</li>
+</ul>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west9/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west9/subnetworks/default</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:16.097-07:00</li>
+<li>Fingerprint: pE0sMAMJjEk=</li>
+<li>Gateway Address: 10.200.0.1</li>
+<li>Id: 1498776283309208403</li>
+<li>IP CIDR Range: 10.200.0.0/20</li>
+<li>Name: default</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Private Google  Access: false</li>
+<li>Private Google Access (IP v6): DISABLE_GOOGLE_ACCESS</li>
+<li>Purpose: PRIVATE</li>
+<li>Region: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west9">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west9</a></li>
+<li>Stack Type. IPV4_ONLY</li>
+</ul>
+<h3 id="subnetwork-29">Subnetwork</h3>
+<ul>
+<li>DisplyName: default</li>
+<li>Location: us-west4</li>
+<li>Project: projects/740535132954</li>
+</ul>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-west4/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-west4/subnetworks/default</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:16.092-07:00</li>
+<li>Fingerprint: NE0Uuqb4pek=</li>
+<li>Gateway Address: 10.182.0.1</li>
+<li>Id: 1085755585127576403</li>
+<li>IP CIDR Range: 10.182.0.0/20</li>
+<li>Name: default</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Private Google  Access: false</li>
+<li>Private Google Access (IP v6): DISABLE_GOOGLE_ACCESS</li>
+<li>Purpose: PRIVATE</li>
+<li>Region: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-west4">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-west4</a></li>
+<li>Stack Type. IPV4_ONLY</li>
+</ul>
+<h3 id="subnetwork-30">Subnetwork</h3>
+<ul>
+<li>DisplyName: default</li>
+<li>Location: europe-west3</li>
+<li>Project: projects/740535132954</li>
+</ul>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west3/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west3/subnetworks/default</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:16.144-07:00</li>
+<li>Fingerprint: V6_H10Ylvpw=</li>
+<li>Gateway Address: 10.156.0.1</li>
+<li>Id: 1289038427356722003</li>
+<li>IP CIDR Range: 10.156.0.0/20</li>
+<li>Name: default</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Private Google  Access: false</li>
+<li>Private Google Access (IP v6): DISABLE_GOOGLE_ACCESS</li>
+<li>Purpose: PRIVATE</li>
+<li>Region: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west3">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west3</a></li>
+<li>Stack Type. IPV4_ONLY</li>
+</ul>
+<h3 id="subnetwork-31">Subnetwork</h3>
+<ul>
+<li>DisplyName: default</li>
+<li>Location: europe-west2</li>
+<li>Project: projects/740535132954</li>
+</ul>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west2/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west2/subnetworks/default</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:16.073-07:00</li>
+<li>Fingerprint: ykX651QRz6c=</li>
+<li>Gateway Address: 10.154.0.1</li>
+<li>Id: 6430285301971481427</li>
+<li>IP CIDR Range: 10.154.0.0/20</li>
+<li>Name: default</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Private Google  Access: false</li>
+<li>Private Google Access (IP v6): DISABLE_GOOGLE_ACCESS</li>
+<li>Purpose: PRIVATE</li>
+<li>Region: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west2">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west2</a></li>
+<li>Stack Type. IPV4_ONLY</li>
+</ul>
+<h3 id="subnetwork-32">Subnetwork</h3>
+<ul>
+<li>DisplyName: default</li>
+<li>Location: us-east4</li>
+<li>Project: projects/740535132954</li>
+</ul>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-east4/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-east4/subnetworks/default</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:16.935-07:00</li>
+<li>Fingerprint: MW0Bs1XZZso=</li>
+<li>Gateway Address: 10.150.0.1</li>
+<li>Id: 5918788296547038035</li>
+<li>IP CIDR Range: 10.150.0.0/20</li>
+<li>Name: default</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Private Google  Access: false</li>
+<li>Private Google Access (IP v6): DISABLE_GOOGLE_ACCESS</li>
+<li>Purpose: PRIVATE</li>
+<li>Region: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-east4">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-east4</a></li>
+<li>Stack Type. IPV4_ONLY</li>
+</ul>
+<h3 id="subnetwork-33">Subnetwork</h3>
+<ul>
+<li>DisplyName: default</li>
+<li>Location: us-central1</li>
+<li>Project: projects/740535132954</li>
+</ul>
+<ul>
+<li>selfLink: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-central1/subnetworks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-central1/subnetworks/default</a></li>
+<li>Creation Timestamp: 2022-07-03T01:05:15.843-07:00</li>
+<li>Fingerprint: j91usOyI-Wg=</li>
+<li>Gateway Address: 10.128.0.1</li>
+<li>Id: 551205316972049236</li>
+<li>IP CIDR Range: 10.128.0.0/20</li>
+<li>Name: default</li>
+<li>Network: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default</a></li>
+<li>Private Google  Access: false</li>
+<li>Private Google Access (IP v6): DISABLE_GOOGLE_ACCESS</li>
+<li>Purpose: PRIVATE</li>
+<li>Region: <a href="https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-central1">https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-central1</a></li>
+<li>Stack Type. IPV4_ONLY</li>
+</ul>
+<h1 id="listing-vms">Listing VMs</h1>
+<p>{{ range $.Site.Data.resources.all }}{{ $tpl := print .assetType &ldquo;.html&rdquo; }}{{ partial $tpl . }}{{ end }}</p>
 
-
-
-  <link rel="icon" type="image/png" sizes="32x32" href="/staging-nightscout/public/">
-  <link rel="icon" type="image/x-icon" href="/staging-nightscout/public/">
-  <link rel="apple-touch-icon" href="/staging-nightscout/public/">
-  <link rel="canonical" href="https://storage.googleapis.com/staging-nightscout/public/">
-  <link rel="alternate" type="application/rss+xml" href="https://storage.googleapis.com/staging-nightscout/public/index.xml" hreflang="en-us">
-<link rel="preload" as="style" href="/staging-nightscout/public/bundle.css?v=1656929533" media="all">
-<link rel="stylesheet" href="/staging-nightscout/public/bundle.css?v=1656929533" media="all">
-<style>.cdata pre{background-color:#1f2937;color:#e5e7eb}.cdata :not(pre)>code{background-color:#f3f4f6;color:#7c3aed}.chroma .err{background-color:#991b1b;color:#fecaca}.chroma .hl{background-color:#374151}.chroma .ln{color:#9ca3af}.chroma .k,.chroma .kc,.chroma .kd,.chroma .kn,.chroma .kp,.chroma .kr{color:#60a5fa}.chroma .kt{color:#a78bfa}.chroma .na,.chroma .nb{color:#fbbf24}.chroma .nc{color:#f87171}.chroma .no{color:#34d399}.chroma .nd{color:#f87171}.chroma .ne{color:#f87171}.chroma .nf{color:#fbbf24}.chroma .nt{color:#f87171}.chroma .l{color:#a78bfa}.chroma .dl,.chroma .ld,.chroma .s,.chroma .s2,.chroma .sa,.chroma .sb,.chroma .sc,.chroma .sd{color:#34d399}.chroma .se{color:#9ca3af}.chroma .s1,.chroma .sh,.chroma .si,.chroma .sr,.chroma .ss,.chroma .sx{color:#34d399}.chroma .il,.chroma .m,.chroma .mb,.chroma .mf,.chroma .mh,.chroma .mi,.chroma .mo{color:#a78bfa}.chroma .o,.chroma .ow{color:#93c5fd}.chroma .c,.chroma .c1,.chroma .ch,.chroma .cm,.chroma .cp,.chroma .cpf,.chroma .cs,.chroma .p{color:#9ca3af}.chroma .ge{font-style:italic}.chroma .gs{font-weight:700}
-</style>
-
-
-
-<title>My New Hugo Site : My New Hugo Site</title>
-
-<meta property="og:title" content="My New Hugo Site">
-<meta property="og:site_name" content="My New Hugo Site">
-<meta property="og:url" content="https://storage.googleapis.com/staging-nightscout/public/">
-<link rel="image_src" href="https://storage.googleapis.com/staging-nightscout/public/">
-<meta property="og:image" content="https://storage.googleapis.com/staging-nightscout/public/">
-<meta property="og:image:width" content="">
-<meta property="og:image:height" content="">
-<meta property="og:type" content="website">
-<meta property="og:locale" content="en_us">
-<meta property="og:description" content="">
-<meta name="description" content="">
-<meta property="og:updated_time" content="0001-01-01T00:00:00Z">
-<meta property="fb:app_id" content="">
-<meta name="author" content="Unknown">
-<meta property="article:author" content="https://storage.googleapis.com/staging-nightscout/public">
-<meta property="article:published_time" content="0001-01-01T00:00:00Z">
-<meta property="article:modified_time" content="0001-01-01T00:00:00Z">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "headline": "My New Hugo Site",
-  "alternativeHeadline": "",
-  "url": "https://storage.googleapis.com/staging-nightscout/public/",
-  "image": "https://storage.googleapis.com/staging-nightscout/public/",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://storage.googleapis.com/staging-nightscout/public/"
-  },
-  "description": "",
-  "author": {
-    "@type": "Person",
-    "name": "Unknown"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "My New Hugo Site",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://storage.googleapis.com/staging-nightscout/public/"
-    }
-  },
-  "datePublished": "0001-01-01T00:00:00Z",
-  "dateModified": "0001-01-01T00:00:00Z",
-  "articleBody": ""
-}
-</script>
-
-<link rel="preload" as="script" href="/staging-nightscout/public/bundle.js?v=1656929533">
-
-
-</head>
-<body>
-
-  <header id="nav" class="header">
-  <div class="ax-l-i max-w-6xl">
-    <div class="ax-logo">
-      <a class="block" href="/" title="My New Hugo Site"><span class="font-semibold text-raven-900">My New Hugo Site</span></a>
-    </div>
-    <div class="ax-user">
-      <a class="p-2 w-8 h-8 block text-raven-500 hover:text-gray-800 focus:text-gray-800 focus:outline-none" target="_blank" rel="noopener nofollow" href="https://www.google.com/search?q=site:https://storage.googleapis.com/staging-nightscout/public/" title="Search">
-        <svg class="fill-current" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M2.67 12.804c0-5.6 4.544-10.134 10.133-10.134s10.134 4.544 10.134 10.134-4.544 10.133-10.134 10.133S2.67 18.393 2.67 12.804zm28.943 16.923l-8.868-8.868c4.287-5.3 3.68-13.012-1.378-17.57S8.564-1.066 3.75 3.75s-5.017 12.558-.46 17.618 12.28 5.665 17.57 1.378l8.868 8.868a1.33 1.33 0 0 0 2.231-.597c.123-.46-.008-.952-.345-1.29h0z"/></svg>
-
-      </a>
-    </div>
-  </div>
-
-  
-</header>
-
-  <main>
-<div class="default-single">
-  <div class="ax-content ax-l-o">
-    <div class="ax-l-i max-w-680">
-      
-
-    </div>
-  </div>
-</div>
-  </main>
-  <footer class="footer">
-  <div class="ax-l-i max-w-6xl">
-    <nav class="flex items-center justify-center">
-    </nav>
-
-    <div class="footer-copyright text-sm text-center text-gray-400 mt-4">
-      &#169; -2022 My New Hugo Site
-    </div>
-    <div class="text-sm sm:text-xs text-center text-gray-400 mt-2">
-      Powered by <a href="https://www.axiomtheme.com/?utm_source=theme-footer&utm_medium=website&utm_campaign=referral">Axiom</a>
-    </div>
-  </div>
-</footer>
-
-<script src="/staging-nightscout/public/bundle.js?v=1656929533"></script>
-
-
-</body>
-</html>
