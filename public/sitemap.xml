@@ -20,10 +20,10 @@
     <loc>https://storage.googleapis.com/staging-nightscout/public/routes/</loc>
     <lastmod>2022-07-03T19:19:00+00:00</lastmod>
   </url><url>
-    <loc>https://storage.googleapis.com/staging-nightscout/public/storage-buckets/</loc>
+    <loc>https://storage.googleapis.com/staging-nightscout/public/services/</loc>
     <lastmod>2022-07-03T19:19:00+00:00</lastmod>
   </url><url>
-    <loc>https://storage.googleapis.com/staging-nightscout/public/services/</loc>
+    <loc>https://storage.googleapis.com/staging-nightscout/public/storage-buckets/</loc>
     <lastmod>2022-07-03T19:19:00+00:00</lastmod>
   </url><url>
     <loc>https://storage.googleapis.com/staging-nightscout/public/subnetworks/</loc>

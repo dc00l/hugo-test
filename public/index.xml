@@ -54,19 +54,19 @@ UNSPECIFIED_XPN_PROJECT_STATUS</description>
     
     <item>
       <title>Services</title>
-      <link>https://storage.googleapis.com/staging-nightscout/public/storage-buckets/</link>
-      <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
-      
-      <guid>https://storage.googleapis.com/staging-nightscout/public/storage-buckets/</guid>
-      <description>Listing services {{ &amp;lt; list-services &amp;gt; }}</description>
-    </item>
-    
-    <item>
-      <title>Storage Buckets</title>
       <link>https://storage.googleapis.com/staging-nightscout/public/services/</link>
       <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
       
       <guid>https://storage.googleapis.com/staging-nightscout/public/services/</guid>
+      <description>Listing Services Services iap.googleapis.com (ENABLED, global) cloudtrace.googleapis.com (ENABLED, global) monitoring.googleapis.com (ENABLED, global) pubsub.googleapis.com (ENABLED, global) storage-component.googleapis.com (ENABLED, global) datastore.googleapis.com (ENABLED, global) compute.googleapis.com (ENABLED, global) cloudfunctions.googleapis.com (ENABLED, global) clouddebugger.googleapis.com (ENABLED, global) bigquerystorage.googleapis.com (ENABLED, global) cloudbuild.googleapis.com (ENABLED, global) bigquery.googleapis.com (ENABLED, global) containerregistry.googleapis.com (ENABLED, global) cloudasset.googleapis.com (ENABLED, global) source.googleapis.com (ENABLED, global) storage-api.googleapis.com (ENABLED, global) serviceusage.googleapis.com (ENABLED, global) oslogin.googleapis.com (ENABLED, global) artifactregistry.googleapis.com (ENABLED, global) servicemanagement.googleapis.com (ENABLED, global) maps-backend.googleapis.com (ENABLED, global) cloudscheduler.googleapis.com (ENABLED, global) cloudapis.googleapis.com (ENABLED, global) sql-component.</description>
+    </item>
+    
+    <item>
+      <title>Storage Buckets</title>
+      <link>https://storage.googleapis.com/staging-nightscout/public/storage-buckets/</link>
+      <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
+      
+      <guid>https://storage.googleapis.com/staging-nightscout/public/storage-buckets/</guid>
       <description>Listing storage buckets Storage Buckets eu.artifacts.serene-courier-331011.appspot.com (eu) DisplayName: eu.artifacts.serene-courier-331011.appspot.com Location: eu Project: projects/740535132954 Resources acl: [] autoclass: map[] billing: map[] cors: [] defaultObjectAcl: [] encryption: map[] etag: CAI= iamConfiguration: map[bucketPolicyOnly:map[enabled:false] publicAccessPrevention:inherited uniformBucketLevelAccess:map[enabled:false]] id: eu.artifacts.serene-courier-331011.appspot.com kind: storage#bucket labels: map[] lifecycle: map[rule:[map[action:map[type:Delete] condition:map[age:3 matchesPrefix:[] matchesStorageClass:[] matchesSuffix:[]]]]] location: EU locationType: multi-region logging: map[] metageneration: 2 name: eu.artifacts.serene-courier-331011.appspot.com owner: map[] projectNumber: 7.40535132954e+11 retentionPolicy: map[] selfLink: https://www.googleapis.com/storage/v1/b/eu.artifacts.serene-courier-331011.appspot.com storageClass: STANDARD timeCreated: 2022-05-18T05:59:34.753Z updated: 2022-05-30T05:49:47.675Z versioning: map[] website: map[] staging.</description>
     </item>
     
@@ -76,7 +76,7 @@ UNSPECIFIED_XPN_PROJECT_STATUS</description>
       <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
       
       <guid>https://storage.googleapis.com/staging-nightscout/public/subnetworks/</guid>
-      <description>Listing subnetworks Subnetworks default (us-south1) DisplayName: default Location: us-south1 Project: projects/740535132954 Resources creationTimestamp: 2022-07-03T01:05:17.024-07:00 fingerprint: gIrIi4xfvQg= gatewayAddress: 10.206.0.1 id: 9061647657825268562 ipCidrRange: 10.206.0.0/20 name: default network: https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default privateIpGoogleAccess: false privateIpv6GoogleAccess: DISABLE_GOOGLE_ACCESS purpose: PRIVATE region: https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-south1 selfLink: https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-south1/subnetworks/default stackType: IPV4_ONLY### default (europe-southwest1) DisplayName: default Location: europe-southwest1 Project: projects/740535132954 Resources creationTimestamp: 2022-07-03T01:05:17.161-07:00 fingerprint: cKsadWWQxKY= gatewayAddress: 10.204.0.1 id: 2576715488653275986 ipCidrRange: 10.204.0.0/20 name: default network: https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default privateIpGoogleAccess: false privateIpv6GoogleAccess: DISABLE_GOOGLE_ACCESS purpose: PRIVATE region: https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-southwest1 selfLink: https://www.</description>
+      <description>Listing subnetworks Subnetworks default (us-south1) DisplayName: default Location: us-south1 Project: projects/740535132954 Resources creationTimestamp: 2022-07-03T01:05:17.024-07:00 fingerprint: gIrIi4xfvQg= gatewayAddress: 10.206.0.1 id: 9061647657825268562 ipCidrRange: 10.206.0.0/20 name: default network: https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default privateIpGoogleAccess: false privateIpv6GoogleAccess: DISABLE_GOOGLE_ACCESS purpose: PRIVATE region: https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-south1 selfLink: https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-south1/subnetworks/default stackType: IPV4_ONLY default (europe-southwest1) DisplayName: default Location: europe-southwest1 Project: projects/740535132954 Resources creationTimestamp: 2022-07-03T01:05:17.161-07:00 fingerprint: cKsadWWQxKY= gatewayAddress: 10.204.0.1 id: 2576715488653275986 ipCidrRange: 10.204.0.0/20 name: default network: https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default privateIpGoogleAccess: false privateIpv6GoogleAccess: DISABLE_GOOGLE_ACCESS purpose: PRIVATE region: https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-southwest1 selfLink: https://www.</description>
     </item>
     
     <item>
