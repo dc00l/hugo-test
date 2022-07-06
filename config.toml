@@ -1,9 +1,13 @@
 baseURL = 'https://storage.googleapis.com/staging-nightscout/public/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
+<<<<<<< HEAD
 #theme = 'axiom'
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+=======
+#theme = 'axiom'
+>>>>>>> 491298cabf2c01a67035c4cab7e23f7ba8dbcf28
