@@ -2,3 +2,4 @@ baseURL = 'https://storage.googleapis.com/staging-nightscout/public/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 #theme = 'axiom'
+# test
