@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Resources on My New Hugo Site</title>
+    <title>My New Hugo Site</title>
     <link>https://storage.googleapis.com/staging-nightscout/public/</link>
-    <description>Recent content in Resources on My New Hugo Site</description>
+    <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 03 Jul 2022 19:19:00 +0000</lastBuildDate><atom:link href="https://storage.googleapis.com/staging-nightscout/public/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://storage.googleapis.com/staging-nightscout/public/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Projects</title>
       <link>https://storage.googleapis.com/staging-nightscout/public/projects/</link>
       <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
       
       <guid>https://storage.googleapis.com/staging-nightscout/public/projects/</guid>
-      <description>Listing project resources Projects map[assetType:compute.googleapis.com/Project createTime:2022-07-03T08:04:56Z displayName:serene-courier-331011 location:global name://compute.googleapis.com/projects/serene-courier-331011 parentAssetType:cloudresourcemanager.googleapis.com/Project parentFullResourceName://cloudresourcemanager.googleapis.com/projects/serene-courier-331011 project:projects/740535132954 versionedResources:[map[resource:map[creationTimestamp:2022-07-03T01:04:56.496-07:00 defaultNetworkTier:PREMIUM defaultServiceAccount:740535132954-compute@developer.gserviceaccount.com id:1525875396643189575 kind:compute#project name:serene-courier-331011 selfLink:https://www.googleapis.com/compute/v1/projects/serene-courier-331011 xpnProjectStatus:UNSPECIFIED_XPN_PROJECT_STATUS] version:v1]]]
-Project DisplyName: serene-courier-331011 Location: global Project: projects/740535132954 map[resource:map[creationTimestamp:2022-07-03T01:04:56.496-07:00 defaultNetworkTier:PREMIUM defaultServiceAccount:740535132954-compute@developer.gserviceaccount.com id:1525875396643189575 kind:compute#project name:serene-courier-331011 selfLink:https://www.googleapis.com/compute/v1/projects/serene-courier-331011 xpnProjectStatus:UNSPECIFIED_XPN_PROJECT_STATUS] version:v1] *Version: v1 2022-07-03T01:04:56.496-07:00
+      <description>Listing project resources Projects map[assetType:compute.googleapis.com/Project createTime:2022-03-07T16:20:47Z displayName:sophora-4e66 folders:[folders/139829729816 folders/723865189448 folders/773221931427] location:global name://compute.googleapis.com/projects/sophora-4e66 organization:organizations/736016622279 parentAssetType:cloudresourcemanager.googleapis.com/Project parentFullResourceName://cloudresourcemanager.googleapis.com/projects/sophora-4e66 project:projects/877064255292 versionedResources:[map[resource:map[creationTimestamp:2022-03-07T08:20:47.437-08:00 defaultNetworkTier:PREMIUM defaultServiceAccount:877064255292-compute@developer.gserviceaccount.com id:7393828439935651376 kind:compute#project name:sophora-4e66 selfLink:https://www.googleapis.com/compute/v1/projects/sophora-4e66 xpnProjectStatus:UNSPECIFIED_XPN_PROJECT_STATUS] version:v1]]]
+Project DisplyName: sophora-4e66 Location: global Project: projects/877064255292 map[resource:map[creationTimestamp:2022-03-07T08:20:47.437-08:00 defaultNetworkTier:PREMIUM defaultServiceAccount:877064255292-compute@developer.gserviceaccount.com id:7393828439935651376 kind:compute#project name:sophora-4e66 selfLink:https://www.googleapis.com/compute/v1/projects/sophora-4e66 xpnProjectStatus:UNSPECIFIED_XPN_PROJECT_STATUS] version:v1] *Version: v1 2022-03-07T08:20:47.437-08:00
 PREMIUM
-740535132954-compute@developer.gserviceaccount.com
-1525875396643189575
+877064255292-compute@developer.gserviceaccount.com
+7393828439935651376
 compute#project
-serene-courier-331011
-https://www.googleapis.com/compute/v1/projects/serene-courier-331011
+sophora-4e66
+https://www.googleapis.com/compute/v1/projects/sophora-4e66
 UNSPECIFIED_XPN_PROJECT_STATUS</description>
     </item>
     
@@ -30,8 +29,17 @@ UNSPECIFIED_XPN_PROJECT_STATUS</description>
       <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
       
       <guid>https://storage.googleapis.com/staging-nightscout/public/networks/</guid>
-      <description>Listing networks Networks map[assetType:compute.googleapis.com/Network createTime:2022-07-03T08:05:06Z description:Default network for the project displayName:default location:global name://compute.googleapis.com/projects/serene-courier-331011/global/networks/default parentAssetType:cloudresourcemanager.googleapis.com/Project parentFullResourceName://cloudresourcemanager.googleapis.com/projects/serene-courier-331011 project:projects/740535132954 versionedResources:[map[resource:map[autoCreateSubnetworks:true creationTimestamp:2022-07-03T01:05:06.599-07:00 description:Default network for the project id:8234776628399240029 name:default networkFirewallPolicyEnforcementOrder:AFTER_CLASSIC_FIREWALL routingConfig:map[routingMode:REGIONAL] selfLink:https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default selfLinkWithId:https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/8234776628399240029 subnetworks:[https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-east1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-east2/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-northeast1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-northeast2/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-northeast3/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-south1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-south2/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-southeast1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/asia-southeast2/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/australia-southeast1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/australia-southeast2/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-central2/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-north1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-southwest1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west2/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west3/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west4/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west6/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west8/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-west9/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/northamerica-northeast1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/northamerica-northeast2/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/southamerica-east1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/southamerica-west1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-central1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-east1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-east4/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-east5/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-south1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-west1/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-west2/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-west3/subnetworks/default https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-west4/subnetworks/default]] version:v1]]]
-Network DisplyName: default Location: global Project: projects/740535132954 Auto-Create Subnetworks: Description: Default network for the project selfLink: https://www.</description>
+      <description>Listing networks Networks map[assetType:compute.googleapis.com/Network createTime:2022-03-07T16:34:00Z displayName:sophora folders:[folders/139829729816 folders/723865189448 folders/773221931427] location:global name://compute.googleapis.com/projects/sophora-4e66/global/networks/sophora organization:organizations/736016622279 parentAssetType:cloudresourcemanager.googleapis.com/Project parentFullResourceName://cloudresourcemanager.googleapis.com/projects/sophora-4e66 project:projects/877064255292 versionedResources:[map[resource:map[autoCreateSubnetworks:false creationTimestamp:2022-03-07T08:34:00.913-08:00 id:5768589562176310551 name:sophora networkFirewallPolicyEnforcementOrder:AFTER_CLASSIC_FIREWALL peerings:[map[autoCreateRoutes:true exchangeSubnetRoutes:true exportCustomRoutes:false exportSubnetRoutesWithPublicIp:false importCustomRoutes:false importSubnetRoutesWithPublicIp:false name:servicenetworking-googleapis-com network:https://www.googleapis.com/compute/v1/projects/n0cde508eca26d6fdp-tp/global/networks/servicenetworking state:ACTIVE stateDetails:[2022-04-19T22:05:24.098-07:00]: Connected.]] routingConfig:map[routingMode:REGIONAL] selfLink:https://www.googleapis.com/compute/v1/projects/sophora-4e66/global/networks/sophora selfLinkWithId:https://www.googleapis.com/compute/v1/projects/sophora-4e66/global/networks/5768589562176310551 subnetworks:[https://www.googleapis.com/compute/v1/projects/sophora-4e66/regions/europe-west3/subnetworks/sophora-internal-lb https://www.googleapis.com/compute/v1/projects/sophora-4e66/regions/europe-west3/subnetworks/sophora-spare https://www.googleapis.com/compute/v1/projects/sophora-4e66/regions/europe-west3/subnetworks/sophora-vm]] version:v1]]]
+Network DisplyName: sophora Location: global Project: projects/877064255292 Auto-Create Subnetworks: Description: selfLink: https://www.googleapis.com/compute/v1/projects/sophora-4e66/global/networks/sophora Creation Timestamp: 2022-03-07T08:34:00.913-08:00 Fingerprint: Gateway Address: Id: 5768589562176310551 IP CIDR Range: Name: sophora Network: Private Google Access: Private Google Access (IP v6): Purpose: Region: Stack Type.</description>
+    </item>
+    
+    <item>
+      <title>Instances</title>
+      <link>https://storage.googleapis.com/staging-nightscout/public/instances/</link>
+      <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
+      
+      <guid>https://storage.googleapis.com/staging-nightscout/public/instances/</guid>
+      <description>Listing instances Instances orig02 (europe-west3-b) assetType: compute.googleapis.com/Instance createTime: 2022-04-14T09:16:06Z displayName: orig02 location: europe-west3-b name: //compute.googleapis.com/projects/sophora-4e66/zones/europe-west3-b/instances/orig02 organization: organizations/736016622279 parentAssetType: cloudresourcemanager.googleapis.com/Project parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/sophora-4e66 project: projects/877064255292 state: RUNNING Network Tags 0: allow-dunkel-out 1: allow-funkhaus-out 2: allow-health-checks 3: allow-http 4: allow-icmp 5: allow-loadbalancer 6: allow-smtp 7: allow-ssh Folders 0: folders/139829729816 1: folders/723865189448 2: folders/773221931427 Resources canIpForward: false cpuPlatform: AMD Rome creationTimestamp: 2022-04-14T02:16:06.127-07:00 deletionProtection: false fingerprint: JiLCEsZvQhI= id: 354172025830004922 labelFingerprint: 42WmSpB8rSM= lastStartTimestamp: 2022-05-12T12:11:47.650-07:00 lastStopTimestamp: 2022-05-12T12:11:04.539-07:00 machineType: https://www.</description>
     </item>
     
     <item>
@@ -40,7 +48,7 @@ Network DisplyName: default Location: global Project: projects/740535132954 Auto
       <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
       
       <guid>https://storage.googleapis.com/staging-nightscout/public/subnetworks/</guid>
-      <description>Listing subnetworks Subnetworks default (us-south1) DisplayName: default Location: us-south1 Project: projects/740535132954 Resources creationTimestamp: 2022-07-03T01:05:17.024-07:00 fingerprint: gIrIi4xfvQg= gatewayAddress: 10.206.0.1 id: 9061647657825268562 ipCidrRange: 10.206.0.0/20 name: default network: https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default privateIpGoogleAccess: false privateIpv6GoogleAccess: DISABLE_GOOGLE_ACCESS purpose: PRIVATE region: https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-south1 selfLink: https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-south1/subnetworks/default stackType: IPV4_ONLY default (europe-southwest1) DisplayName: default Location: europe-southwest1 Project: projects/740535132954 Resources creationTimestamp: 2022-07-03T01:05:17.161-07:00 fingerprint: cKsadWWQxKY= gatewayAddress: 10.204.0.1 id: 2576715488653275986 ipCidrRange: 10.204.0.0/20 name: default network: https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default privateIpGoogleAccess: false privateIpv6GoogleAccess: DISABLE_GOOGLE_ACCESS purpose: PRIVATE region: https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-southwest1 selfLink: https://www.</description>
+      <description>Listing subnetworks Subnetworks default (europe-west9) DisplayName: default Location: europe-west9 Project: projects/877064255292 Resources creationTimestamp: 2022-03-09T13:42:03.543-08:00 fingerprint: gCwB-dSZlRM= gatewayAddress: 10.200.0.1 id: 5788451814529868228 ipCidrRange: 10.200.0.0/20 name: default network: https://www.googleapis.com/compute/v1/projects/sophora-4e66/global/networks/default privateIpGoogleAccess: false privateIpv6GoogleAccess: UNSPECIFIED purpose: PRIVATE region: https://www.googleapis.com/compute/v1/projects/sophora-4e66/regions/europe-west9 selfLink: https://www.googleapis.com/compute/v1/projects/sophora-4e66/regions/europe-west9/subnetworks/default stackType: IPV4_ONLY default (europe-west8) DisplayName: default Location: europe-west8 Project: projects/877064255292 Resources creationTimestamp: 2022-03-07T19:06:58.773-08:00 fingerprint: 25AftJmLQ_c= gatewayAddress: 10.198.0.1 id: 8182610269156636349 ipCidrRange: 10.198.0.0/20 name: default network: https://www.googleapis.com/compute/v1/projects/sophora-4e66/global/networks/default privateIpGoogleAccess: false privateIpv6GoogleAccess: UNSPECIFIED purpose: PRIVATE region: https://www.googleapis.com/compute/v1/projects/sophora-4e66/regions/europe-west8 selfLink: https://www.</description>
     </item>
     
     <item>
@@ -49,7 +57,7 @@ Network DisplyName: default Location: global Project: projects/740535132954 Auto
       <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
       
       <guid>https://storage.googleapis.com/staging-nightscout/public/services/</guid>
-      <description>Listing Services Services iap.googleapis.com (ENABLED, global) cloudtrace.googleapis.com (ENABLED, global) monitoring.googleapis.com (ENABLED, global) pubsub.googleapis.com (ENABLED, global) storage-component.googleapis.com (ENABLED, global) datastore.googleapis.com (ENABLED, global) compute.googleapis.com (ENABLED, global) cloudfunctions.googleapis.com (ENABLED, global) clouddebugger.googleapis.com (ENABLED, global) bigquerystorage.googleapis.com (ENABLED, global) cloudbuild.googleapis.com (ENABLED, global) bigquery.googleapis.com (ENABLED, global) containerregistry.googleapis.com (ENABLED, global) cloudasset.googleapis.com (ENABLED, global) source.googleapis.com (ENABLED, global) storage-api.googleapis.com (ENABLED, global) serviceusage.googleapis.com (ENABLED, global) oslogin.googleapis.com (ENABLED, global) artifactregistry.googleapis.com (ENABLED, global) servicemanagement.googleapis.com (ENABLED, global) maps-backend.googleapis.com (ENABLED, global) cloudscheduler.googleapis.com (ENABLED, global) cloudapis.googleapis.com (ENABLED, global) sql-component.</description>
+      <description>Listing Services Services servicenetworking.googleapis.com (ENABLED, global) logging.googleapis.com (ENABLED, global) compute.googleapis.com (ENABLED, global) osconfig.googleapis.com (ENABLED, global) networkmanagement.googleapis.com (ENABLED, global) containeranalysis.googleapis.com (ENABLED, global) dns.googleapis.com (ENABLED, global) monitoring.googleapis.com (ENABLED, global) cloudbilling.googleapis.com (ENABLED, global) cloudtrace.googleapis.com (ENABLED, global) cloudscheduler.googleapis.com (ENABLED, global) sts.googleapis.com (ENABLED, global) networkconnectivity.googleapis.com (ENABLED, global) oslogin.googleapis.com (ENABLED, global) iam.googleapis.com (ENABLED, global) pubsub.googleapis.com (ENABLED, global) iamcredentials.googleapis.com (ENABLED, global) sqladmin.googleapis.com (ENABLED, global) cloudresourcemanager.googleapis.com (ENABLED, global) </description>
     </item>
     
     <item>
@@ -58,7 +66,7 @@ Network DisplyName: default Location: global Project: projects/740535132954 Auto
       <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
       
       <guid>https://storage.googleapis.com/staging-nightscout/public/routes/</guid>
-      <description>Listing routes Routes default (us-south1) DisplayName: default Location: us-south1 Project: projects/740535132954 Resources creationTimestamp: 2022-07-03T01:05:17.024-07:00 fingerprint: gIrIi4xfvQg= gatewayAddress: 10.206.0.1 id: 9061647657825268562 ipCidrRange: 10.206.0.0/20 name: default network: https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default privateIpGoogleAccess: false privateIpv6GoogleAccess: DISABLE_GOOGLE_ACCESS purpose: PRIVATE region: https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-south1 selfLink: https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/us-south1/subnetworks/default stackType: IPV4_ONLY default (europe-southwest1) DisplayName: default Location: europe-southwest1 Project: projects/740535132954 Resources creationTimestamp: 2022-07-03T01:05:17.161-07:00 fingerprint: cKsadWWQxKY= gatewayAddress: 10.204.0.1 id: 2576715488653275986 ipCidrRange: 10.204.0.0/20 name: default network: https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default privateIpGoogleAccess: false privateIpv6GoogleAccess: DISABLE_GOOGLE_ACCESS purpose: PRIVATE region: https://www.googleapis.com/compute/v1/projects/serene-courier-331011/regions/europe-southwest1 selfLink: https://www.</description>
+      <description>Listing routes Routes default (europe-west9) DisplayName: default Location: europe-west9 Project: projects/877064255292 Resources creationTimestamp: 2022-03-09T13:42:03.543-08:00 fingerprint: gCwB-dSZlRM= gatewayAddress: 10.200.0.1 id: 5788451814529868228 ipCidrRange: 10.200.0.0/20 name: default network: https://www.googleapis.com/compute/v1/projects/sophora-4e66/global/networks/default privateIpGoogleAccess: false privateIpv6GoogleAccess: UNSPECIFIED purpose: PRIVATE region: https://www.googleapis.com/compute/v1/projects/sophora-4e66/regions/europe-west9 selfLink: https://www.googleapis.com/compute/v1/projects/sophora-4e66/regions/europe-west9/subnetworks/default stackType: IPV4_ONLY default (europe-west8) DisplayName: default Location: europe-west8 Project: projects/877064255292 Resources creationTimestamp: 2022-03-07T19:06:58.773-08:00 fingerprint: 25AftJmLQ_c= gatewayAddress: 10.198.0.1 id: 8182610269156636349 ipCidrRange: 10.198.0.0/20 name: default network: https://www.googleapis.com/compute/v1/projects/sophora-4e66/global/networks/default privateIpGoogleAccess: false privateIpv6GoogleAccess: UNSPECIFIED purpose: PRIVATE region: https://www.googleapis.com/compute/v1/projects/sophora-4e66/regions/europe-west8 selfLink: https://www.</description>
     </item>
     
     <item>
@@ -67,7 +75,7 @@ Network DisplyName: default Location: global Project: projects/740535132954 Auto
       <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
       
       <guid>https://storage.googleapis.com/staging-nightscout/public/storage-buckets/</guid>
-      <description>Listing storage buckets Storage Buckets eu.artifacts.serene-courier-331011.appspot.com (eu) DisplayName: eu.artifacts.serene-courier-331011.appspot.com Location: eu Project: projects/740535132954 Resources acl: [] autoclass: map[] billing: map[] cors: [] defaultObjectAcl: [] encryption: map[] etag: CAI= iamConfiguration: map[bucketPolicyOnly:map[enabled:false] publicAccessPrevention:inherited uniformBucketLevelAccess:map[enabled:false]] id: eu.artifacts.serene-courier-331011.appspot.com kind: storage#bucket labels: map[] lifecycle: map[rule:[map[action:map[type:Delete] condition:map[age:3 matchesPrefix:[] matchesStorageClass:[] matchesSuffix:[]]]]] location: EU locationType: multi-region logging: map[] metageneration: 2 name: eu.artifacts.serene-courier-331011.appspot.com owner: map[] projectNumber: 7.40535132954e+11 retentionPolicy: map[] selfLink: https://www.googleapis.com/storage/v1/b/eu.artifacts.serene-courier-331011.appspot.com storageClass: STANDARD timeCreated: 2022-05-18T05:59:34.753Z updated: 2022-05-30T05:49:47.675Z versioning: map[] website: map[] staging.</description>
+      <description>Listing storage buckets Storage Buckets </description>
     </item>
     
     <item>
@@ -76,43 +84,7 @@ Network DisplyName: default Location: global Project: projects/740535132954 Auto
       <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
       
       <guid>https://storage.googleapis.com/staging-nightscout/public/firewall/</guid>
-      <description>Listing Firewall rules Firewall Rules default-allow-ssh DisplayName: default-allow-ssh Description: Allow SSH from anywhere Location: global Project: projects/740535132954 State: ENABLED allowed Protocol: tcp Ports: [22] selfLink: https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/firewalls/default-allow-ssh Creation Timestamp: 2022-07-03T01:05:34.447-07:00 Description: Allow SSH from anywhere Direction: INGRESS Id: 7333154935886639905 disabled: false Name: default-allow-ssh Network: https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/networks/default Priority: 65534 Source Ranges: [0.0.0.0/0] default-allow-icmp DisplayName: default-allow-icmp Description: Allow ICMP from anywhere Location: global Project: projects/740535132954 State: ENABLED allowed Protocol: icmp Ports: selfLink: https://www.googleapis.com/compute/v1/projects/serene-courier-331011/global/firewalls/default-allow-icmp Creation Timestamp: 2022-07-03T01:05:34.</description>
-    </item>
-    
-    <item>
-      <title>Vm</title>
-      <link>https://storage.googleapis.com/staging-nightscout/public/_vm/</link>
-      <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
-      
-      <guid>https://storage.googleapis.com/staging-nightscout/public/_vm/</guid>
-      <description>Listing VMs {{ range $.Site.Data.resources.all }}{{ $tpl := print .assetType &amp;ldquo;.html&amp;rdquo; }}{{ partial $tpl . }}{{ end }}</description>
-    </item>
-    
-    <item>
-      <title>Vm</title>
-      <link>https://storage.googleapis.com/staging-nightscout/public/home/about/</link>
-      <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
-      
-      <guid>https://storage.googleapis.com/staging-nightscout/public/home/about/</guid>
-      <description>Testing </description>
-    </item>
-    
-    <item>
-      <title>Vm</title>
-      <link>https://storage.googleapis.com/staging-nightscout/public/home/products/</link>
-      <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
-      
-      <guid>https://storage.googleapis.com/staging-nightscout/public/home/products/</guid>
-      <description>Testing </description>
-    </item>
-    
-    <item>
-      <title>Vm</title>
-      <link>https://storage.googleapis.com/staging-nightscout/public/home/welcome/</link>
-      <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
-      
-      <guid>https://storage.googleapis.com/staging-nightscout/public/home/welcome/</guid>
-      <description>Testing </description>
+      <description>Listing Firewall rules Firewall Rules allow-smtp DisplayName: allow-smtp Description: Location: global Project: projects/877064255292 State: ENABLED allowed Protocol: tcp Ports: [587] selfLink: https://www.googleapis.com/compute/v1/projects/sophora-4e66/global/firewalls/allow-smtp Creation Timestamp: 2022-05-10T23:41:01.999-07:00 Description: Direction: EGRESS Id: 5540840898311939218 disabled: false Name: allow-smtp Network: https://www.googleapis.com/compute/v1/projects/sophora-4e66/global/networks/sophora Priority: 1000 Source Ranges: allow-health-checks DisplayName: allow-health-checks Description: Location: global Project: projects/877064255292 State: ENABLED allowed Protocol: tcp Ports: [80] selfLink: https://www.googleapis.com/compute/v1/projects/sophora-4e66/global/firewalls/allow-health-checks Creation Timestamp: 2022-04-14T07:16:48.015-07:00 Description: Direction: INGRESS Id: 9084242913842795071 disabled: false Name: allow-health-checks Network: https://www.</description>
     </item>
     
   </channel>
