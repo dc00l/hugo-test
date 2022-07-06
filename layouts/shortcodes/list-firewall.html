@@ -10,16 +10,19 @@
 * State: {{ .state }}
 {{ range .versionedResources -}}
 #### allowed
+
 {{ range .resource.allowed -}}
 + Protocol: {{ .IPProtocol }}
 + Ports: {{ .ports }}
 {{ end -}}
 
+{{ if isset .resource "denied"}}
 #### denied
 {{ range .resource.denied -}}
 + Protocol: {{ .IPProtocol }}
 + Ports: {{ .ports }}
 {{ end -}}
+{{ end }}
 
 {{ with .resource }}
 - selfLink: {{ .selfLink }}
