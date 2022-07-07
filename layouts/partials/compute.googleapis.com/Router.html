@@ -1,4 +1,4 @@
-<h2>Subnetworks</h2>
+<h2>Router</h2>
 <h3>{{ .displayName }}</h3>
 <ul>
 {{- range $index, $val := . }}
@@ -18,7 +18,7 @@
 <h3>Resources</h3>
 <ul>
   {{- range $index, $val := .resource }}
-  {{- if in (slice "certificate") $index }}{{ else }}
+  {{- if in (slice "disks" "networkInterfaces") $index }}{{ else }}
   <li>{{ $index }}: {{ $val }}</li>{{ end -}}
   {{ end }}
 </ul>

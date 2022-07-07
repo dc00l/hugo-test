@@ -2,28 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://storage.googleapis.com/staging-nightscout/public/projects/</loc>
+    <loc>https://storage.googleapis.com/staging-nightscout/public/check/</loc>
     <lastmod>2022-07-03T19:19:00+00:00</lastmod>
   </url><url>
-    <loc>https://storage.googleapis.com/staging-nightscout/public/networks/</loc>
-    <lastmod>2022-07-03T19:19:00+00:00</lastmod>
-  </url><url>
-    <loc>https://storage.googleapis.com/staging-nightscout/public/instances/</loc>
-    <lastmod>2022-07-03T19:19:00+00:00</lastmod>
-  </url><url>
-    <loc>https://storage.googleapis.com/staging-nightscout/public/subnetworks/</loc>
-    <lastmod>2022-07-03T19:19:00+00:00</lastmod>
-  </url><url>
-    <loc>https://storage.googleapis.com/staging-nightscout/public/services/</loc>
-    <lastmod>2022-07-03T19:19:00+00:00</lastmod>
-  </url><url>
-    <loc>https://storage.googleapis.com/staging-nightscout/public/routes/</loc>
-    <lastmod>2022-07-03T19:19:00+00:00</lastmod>
-  </url><url>
-    <loc>https://storage.googleapis.com/staging-nightscout/public/storage-buckets/</loc>
-    <lastmod>2022-07-03T19:19:00+00:00</lastmod>
-  </url><url>
-    <loc>https://storage.googleapis.com/staging-nightscout/public/firewall/</loc>
+    <loc>https://storage.googleapis.com/staging-nightscout/public/onepage/</loc>
     <lastmod>2022-07-03T19:19:00+00:00</lastmod>
   </url><url>
     <loc>https://storage.googleapis.com/staging-nightscout/public/categories/</loc>

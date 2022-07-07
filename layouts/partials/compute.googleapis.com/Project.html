@@ -1,0 +1,18 @@
+## Projects
+{{ $vms := $.Site.Data.resources.all -}}
+{{ range $vms -}}
+{{ if eq .assetType "compute.googleapis.com/Project" -}}
+{{ . }}
+### Project
+* DisplyName: {{ .displayName }}
+* Location: {{ .location }}
+* Project: {{ .project }}
+{{ range .versionedResources -}}
+{{ . }}
+*Version: {{ .version }}
+{{ range .resource }}
+{{ . }}
+{{ end -}}
+{{ end -}}
+{{ end -}}
+{{ end -}}

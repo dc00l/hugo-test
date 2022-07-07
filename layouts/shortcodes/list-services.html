@@ -1,8 +1,0 @@
-## Services
-{{ $vms := $.Site.Data.resources.all -}}
-{{ range $vms -}}
-{{ if eq .assetType "serviceusage.googleapis.com/Service" -}}
-
-* {{ .displayName }} ({{ .state }}, {{ .location }})
-{{ end -}}
-{{ end -}}

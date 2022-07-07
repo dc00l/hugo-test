@@ -12,6 +12,14 @@
 {{ end }}
 </ul>
 
+#### Additional Attributes
+
+<ul>
+{{ range $index, $val := .additionalAttributes }}
+<li>{{ $index }}: {{ $val }}</li>
+{{ end }}
+</ul>
+
 #### Network Tags
 
 <ul>

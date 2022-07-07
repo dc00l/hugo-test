@@ -1,0 +1,36 @@
+## ResourcePolicies
+{{ $vms := $.Site.Data.resources.all -}}
+{{ range $vms -}}
+{{ if eq .assetType "compute.googleapis.com/ResourcePolicy" -}}
+
+### {{ .displayName }}
+<ul>
+{{ range $index, $val := . }}
+{{ if in (slice "versionedResources" "folders") $index }}{{ else }}
+<li>{{ $index }}: {{ $val }}</li>{{ end }}
+{{ end }}
+</ul>
+
+#### Folders
+
+<ul>
+{{ range $index, $val := .folders }}
+<li>{{ $index }}: {{ $val }}</li>
+{{ end }}
+</ul>
+
+{{ range .versionedResources -}}
+
+#### Resources
+
+<ul>
+{{ range $index, $val := .resource }}
+{{ if in (slice "disks" "networkInterfaces") $index }}{{ else }}
+<li>{{ $index }}: {{ $val }}</li>
+{{ end }}
+{{ end }}
+</ul>
+
+{{ end -}}
+{{ end -}}
+{{ end -}}

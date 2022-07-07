@@ -7,84 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://storage.googleapis.com/staging-nightscout/public/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Projects</title>
-      <link>https://storage.googleapis.com/staging-nightscout/public/projects/</link>
+      <title>Check</title>
+      <link>https://storage.googleapis.com/staging-nightscout/public/check/</link>
       <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
       
-      <guid>https://storage.googleapis.com/staging-nightscout/public/projects/</guid>
-      <description>Listing project resources Projects map[assetType:compute.googleapis.com/Project createTime:2022-03-07T16:20:47Z displayName:sophora-4e66 folders:[folders/139829729816 folders/723865189448 folders/773221931427] location:global name://compute.googleapis.com/projects/sophora-4e66 organization:organizations/736016622279 parentAssetType:cloudresourcemanager.googleapis.com/Project parentFullResourceName://cloudresourcemanager.googleapis.com/projects/sophora-4e66 project:projects/877064255292 versionedResources:[map[resource:map[creationTimestamp:2022-03-07T08:20:47.437-08:00 defaultNetworkTier:PREMIUM defaultServiceAccount:877064255292-compute@developer.gserviceaccount.com id:7393828439935651376 kind:compute#project name:sophora-4e66 selfLink:https://www.googleapis.com/compute/v1/projects/sophora-4e66 xpnProjectStatus:UNSPECIFIED_XPN_PROJECT_STATUS] version:v1]]]
-Project DisplyName: sophora-4e66 Location: global Project: projects/877064255292 map[resource:map[creationTimestamp:2022-03-07T08:20:47.437-08:00 defaultNetworkTier:PREMIUM defaultServiceAccount:877064255292-compute@developer.gserviceaccount.com id:7393828439935651376 kind:compute#project name:sophora-4e66 selfLink:https://www.googleapis.com/compute/v1/projects/sophora-4e66 xpnProjectStatus:UNSPECIFIED_XPN_PROJECT_STATUS] version:v1] *Version: v1 2022-03-07T08:20:47.437-08:00
-PREMIUM
-877064255292-compute@developer.gserviceaccount.com
-7393828439935651376
-compute#project
-sophora-4e66
-https://www.googleapis.com/compute/v1/projects/sophora-4e66
-UNSPECIFIED_XPN_PROJECT_STATUS</description>
+      <guid>https://storage.googleapis.com/staging-nightscout/public/check/</guid>
+      <description>Running Checks </description>
     </item>
     
     <item>
-      <title>Networks</title>
-      <link>https://storage.googleapis.com/staging-nightscout/public/networks/</link>
+      <title>Check</title>
+      <link>https://storage.googleapis.com/staging-nightscout/public/onepage/</link>
       <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
       
-      <guid>https://storage.googleapis.com/staging-nightscout/public/networks/</guid>
-      <description>Listing networks Networks map[assetType:compute.googleapis.com/Network createTime:2022-03-07T16:34:00Z displayName:sophora folders:[folders/139829729816 folders/723865189448 folders/773221931427] location:global name://compute.googleapis.com/projects/sophora-4e66/global/networks/sophora organization:organizations/736016622279 parentAssetType:cloudresourcemanager.googleapis.com/Project parentFullResourceName://cloudresourcemanager.googleapis.com/projects/sophora-4e66 project:projects/877064255292 versionedResources:[map[resource:map[autoCreateSubnetworks:false creationTimestamp:2022-03-07T08:34:00.913-08:00 id:5768589562176310551 name:sophora networkFirewallPolicyEnforcementOrder:AFTER_CLASSIC_FIREWALL peerings:[map[autoCreateRoutes:true exchangeSubnetRoutes:true exportCustomRoutes:false exportSubnetRoutesWithPublicIp:false importCustomRoutes:false importSubnetRoutesWithPublicIp:false name:servicenetworking-googleapis-com network:https://www.googleapis.com/compute/v1/projects/n0cde508eca26d6fdp-tp/global/networks/servicenetworking state:ACTIVE stateDetails:[2022-04-19T22:05:24.098-07:00]: Connected.]] routingConfig:map[routingMode:REGIONAL] selfLink:https://www.googleapis.com/compute/v1/projects/sophora-4e66/global/networks/sophora selfLinkWithId:https://www.googleapis.com/compute/v1/projects/sophora-4e66/global/networks/5768589562176310551 subnetworks:[https://www.googleapis.com/compute/v1/projects/sophora-4e66/regions/europe-west3/subnetworks/sophora-internal-lb https://www.googleapis.com/compute/v1/projects/sophora-4e66/regions/europe-west3/subnetworks/sophora-spare https://www.googleapis.com/compute/v1/projects/sophora-4e66/regions/europe-west3/subnetworks/sophora-vm]] version:v1]]]
-Network DisplyName: sophora Location: global Project: projects/877064255292 Auto-Create Subnetworks: Description: selfLink: https://www.googleapis.com/compute/v1/projects/sophora-4e66/global/networks/sophora Creation Timestamp: 2022-03-07T08:34:00.913-08:00 Fingerprint: Gateway Address: Id: 5768589562176310551 IP CIDR Range: Name: sophora Network: Private Google Access: Private Google Access (IP v6): Purpose: Region: Stack Type.</description>
-    </item>
-    
-    <item>
-      <title>Instances</title>
-      <link>https://storage.googleapis.com/staging-nightscout/public/instances/</link>
-      <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
-      
-      <guid>https://storage.googleapis.com/staging-nightscout/public/instances/</guid>
-      <description>Listing instances Instances orig02 (europe-west3-b) assetType: compute.googleapis.com/Instance createTime: 2022-04-14T09:16:06Z displayName: orig02 location: europe-west3-b name: //compute.googleapis.com/projects/sophora-4e66/zones/europe-west3-b/instances/orig02 organization: organizations/736016622279 parentAssetType: cloudresourcemanager.googleapis.com/Project parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/sophora-4e66 project: projects/877064255292 state: RUNNING Network Tags 0: allow-dunkel-out 1: allow-funkhaus-out 2: allow-health-checks 3: allow-http 4: allow-icmp 5: allow-loadbalancer 6: allow-smtp 7: allow-ssh Folders 0: folders/139829729816 1: folders/723865189448 2: folders/773221931427 Resources canIpForward: false cpuPlatform: AMD Rome creationTimestamp: 2022-04-14T02:16:06.127-07:00 deletionProtection: false fingerprint: JiLCEsZvQhI= id: 354172025830004922 labelFingerprint: 42WmSpB8rSM= lastStartTimestamp: 2022-05-12T12:11:47.650-07:00 lastStopTimestamp: 2022-05-12T12:11:04.539-07:00 machineType: https://www.</description>
-    </item>
-    
-    <item>
-      <title>Subnetworks</title>
-      <link>https://storage.googleapis.com/staging-nightscout/public/subnetworks/</link>
-      <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
-      
-      <guid>https://storage.googleapis.com/staging-nightscout/public/subnetworks/</guid>
-      <description>Listing subnetworks Subnetworks default (europe-west9) DisplayName: default Location: europe-west9 Project: projects/877064255292 Resources creationTimestamp: 2022-03-09T13:42:03.543-08:00 fingerprint: gCwB-dSZlRM= gatewayAddress: 10.200.0.1 id: 5788451814529868228 ipCidrRange: 10.200.0.0/20 name: default network: https://www.googleapis.com/compute/v1/projects/sophora-4e66/global/networks/default privateIpGoogleAccess: false privateIpv6GoogleAccess: UNSPECIFIED purpose: PRIVATE region: https://www.googleapis.com/compute/v1/projects/sophora-4e66/regions/europe-west9 selfLink: https://www.googleapis.com/compute/v1/projects/sophora-4e66/regions/europe-west9/subnetworks/default stackType: IPV4_ONLY default (europe-west8) DisplayName: default Location: europe-west8 Project: projects/877064255292 Resources creationTimestamp: 2022-03-07T19:06:58.773-08:00 fingerprint: 25AftJmLQ_c= gatewayAddress: 10.198.0.1 id: 8182610269156636349 ipCidrRange: 10.198.0.0/20 name: default network: https://www.googleapis.com/compute/v1/projects/sophora-4e66/global/networks/default privateIpGoogleAccess: false privateIpv6GoogleAccess: UNSPECIFIED purpose: PRIVATE region: https://www.googleapis.com/compute/v1/projects/sophora-4e66/regions/europe-west8 selfLink: https://www.</description>
-    </item>
-    
-    <item>
-      <title>Services</title>
-      <link>https://storage.googleapis.com/staging-nightscout/public/services/</link>
-      <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
-      
-      <guid>https://storage.googleapis.com/staging-nightscout/public/services/</guid>
-      <description>Listing Services Services servicenetworking.googleapis.com (ENABLED, global) logging.googleapis.com (ENABLED, global) compute.googleapis.com (ENABLED, global) osconfig.googleapis.com (ENABLED, global) networkmanagement.googleapis.com (ENABLED, global) containeranalysis.googleapis.com (ENABLED, global) dns.googleapis.com (ENABLED, global) monitoring.googleapis.com (ENABLED, global) cloudbilling.googleapis.com (ENABLED, global) cloudtrace.googleapis.com (ENABLED, global) cloudscheduler.googleapis.com (ENABLED, global) sts.googleapis.com (ENABLED, global) networkconnectivity.googleapis.com (ENABLED, global) oslogin.googleapis.com (ENABLED, global) iam.googleapis.com (ENABLED, global) pubsub.googleapis.com (ENABLED, global) iamcredentials.googleapis.com (ENABLED, global) sqladmin.googleapis.com (ENABLED, global) cloudresourcemanager.googleapis.com (ENABLED, global) </description>
-    </item>
-    
-    <item>
-      <title>Routes</title>
-      <link>https://storage.googleapis.com/staging-nightscout/public/routes/</link>
-      <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
-      
-      <guid>https://storage.googleapis.com/staging-nightscout/public/routes/</guid>
-      <description>Listing routes Routes default (europe-west9) DisplayName: default Location: europe-west9 Project: projects/877064255292 Resources creationTimestamp: 2022-03-09T13:42:03.543-08:00 fingerprint: gCwB-dSZlRM= gatewayAddress: 10.200.0.1 id: 5788451814529868228 ipCidrRange: 10.200.0.0/20 name: default network: https://www.googleapis.com/compute/v1/projects/sophora-4e66/global/networks/default privateIpGoogleAccess: false privateIpv6GoogleAccess: UNSPECIFIED purpose: PRIVATE region: https://www.googleapis.com/compute/v1/projects/sophora-4e66/regions/europe-west9 selfLink: https://www.googleapis.com/compute/v1/projects/sophora-4e66/regions/europe-west9/subnetworks/default stackType: IPV4_ONLY default (europe-west8) DisplayName: default Location: europe-west8 Project: projects/877064255292 Resources creationTimestamp: 2022-03-07T19:06:58.773-08:00 fingerprint: 25AftJmLQ_c= gatewayAddress: 10.198.0.1 id: 8182610269156636349 ipCidrRange: 10.198.0.0/20 name: default network: https://www.googleapis.com/compute/v1/projects/sophora-4e66/global/networks/default privateIpGoogleAccess: false privateIpv6GoogleAccess: UNSPECIFIED purpose: PRIVATE region: https://www.googleapis.com/compute/v1/projects/sophora-4e66/regions/europe-west8 selfLink: https://www.</description>
-    </item>
-    
-    <item>
-      <title>Storage Buckets</title>
-      <link>https://storage.googleapis.com/staging-nightscout/public/storage-buckets/</link>
-      <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
-      
-      <guid>https://storage.googleapis.com/staging-nightscout/public/storage-buckets/</guid>
-      <description>Listing storage buckets Storage Buckets </description>
-    </item>
-    
-    <item>
-      <title>Firewall Rules</title>
-      <link>https://storage.googleapis.com/staging-nightscout/public/firewall/</link>
-      <pubDate>Sun, 03 Jul 2022 19:19:00 +0000</pubDate>
-      
-      <guid>https://storage.googleapis.com/staging-nightscout/public/firewall/</guid>
-      <description>Listing Firewall rules Firewall Rules allow-smtp DisplayName: allow-smtp Description: Location: global Project: projects/877064255292 State: ENABLED allowed Protocol: tcp Ports: [587] selfLink: https://www.googleapis.com/compute/v1/projects/sophora-4e66/global/firewalls/allow-smtp Creation Timestamp: 2022-05-10T23:41:01.999-07:00 Description: Direction: EGRESS Id: 5540840898311939218 disabled: false Name: allow-smtp Network: https://www.googleapis.com/compute/v1/projects/sophora-4e66/global/networks/sophora Priority: 1000 Source Ranges: allow-health-checks DisplayName: allow-health-checks Description: Location: global Project: projects/877064255292 State: ENABLED allowed Protocol: tcp Ports: [80] selfLink: https://www.googleapis.com/compute/v1/projects/sophora-4e66/global/firewalls/allow-health-checks Creation Timestamp: 2022-04-14T07:16:48.015-07:00 Description: Direction: INGRESS Id: 9084242913842795071 disabled: false Name: allow-health-checks Network: https://www.</description>
+      <guid>https://storage.googleapis.com/staging-nightscout/public/onepage/</guid>
+      <description>All in One Project Billing Info assetType: cloudbilling.googleapis.com/ProjectBillingInfo displayName: projects/sophora-4e66/billingInfo location: global name: //cloudbilling.googleapis.com/projects/sophora-4e66/billingInfo organization: organizations/736016622279 parentAssetType: cloudresourcemanager.googleapis.com/Project parentFullResourceName: //cloudresourcemanager.googleapis.com/projects/sophora-4e66 project: projects/877064255292 state: ACTIVE Folders 0: folders/139829729816 1: folders/723865189448 2: folders/773221931427 Resources billingAccountName: billingAccounts/01D65B-B99BFB-73F567 billingEnabled: true name: projects/sophora-4e66/billingInfo projectId: sophora-4e66 Project sophora-4e66 additionalAttributes: map[projectId:sophora-4e66] assetType: cloudresourcemanager.googleapis.com/Project createTime: 2022-03-07T16:20:11Z displayName: sophora-4e66 labels: map[env:prod order_number:l1316001 suborder_number:1000] location: global name: //cloudresourcemanager.googleapis.com/projects/sophora-4e66 organization: organizations/736016622279 parentAssetType: cloudresourcemanager.googleapis.com/Folder parentFullResourceName: //cloudresourcemanager.googleapis.com/folders/139829729816 project: projects/877064255292 state: ACTIVE Folders 0: folders/139829729816 1: folders/723865189448 2: folders/773221931427 Resources createTime: 2022-03-07T16:20:11.</description>
     </item>
     
   </channel>

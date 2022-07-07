@@ -1,8 +1,9 @@
-<h2>Subnetworks</h2>
+<h2>Forwarding Rules</h2>
+
 <h3>{{ .displayName }}</h3>
 <ul>
-{{- range $index, $val := . }}
-  {{- if in (slice "versionedResources" "folders") $index }}{{ else }}
+  {{- range $index, $val := . }}
+  {{- if in (slice "versionedResources" "additionalAttributes" "networkTags" "folders") $index }}{{ else }}
   <li>{{ $index }}: {{ $val }}</li>{{ end -}}
   {{ end }}
 </ul>
@@ -18,7 +19,7 @@
 <h3>Resources</h3>
 <ul>
   {{- range $index, $val := .resource }}
-  {{- if in (slice "certificate") $index }}{{ else }}
+  {{- if in (slice "disks" "certificate") $index }}{{ else }}
   <li>{{ $index }}: {{ $val }}</li>{{ end -}}
   {{ end }}
 </ul>

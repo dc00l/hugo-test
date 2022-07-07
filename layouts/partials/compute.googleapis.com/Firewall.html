@@ -1,0 +1,38 @@
+<h2>Firewall Rules</h2>
+
+<h3>Rule: {{ .displayName }}</h3>
+<ul>
+  {{- range $index, $val := . }}
+  {{- if in (slice "versionedResources" "folders") $index }}{{ else }}
+  <li>{{ $index }}: {{ $val }}</li>{{ end -}}
+  {{ end }}
+</ul>
+
+{{- range .versionedResources }}
+{{ if isset .resource "allowed"}}
+<h4>allowed</h4>
+<ul>
+  {{ range .resource.allowed -}}
+  <li>Protocol: {{ .IPProtocol }}</li>
+  <li>Ports: {{ .ports }}</li>{{ end }}
+</ul>
+{{ end -}}
+
+{{ if isset .resource "denied"}}
+<h4>denied</h4>
+<ul>
+  {{ range .resource.denied -}}
+  <li>Protocol: {{ .IPProtocol }}</li>
+  <li>Ports: {{ .ports }}</li>{{ end }}
+</ul>
+{{ end -}}
+
+<h4>Resources</h4>
+<ul>
+  {{- range $index, $val := .resource }}
+  {{- if in (slice "disks" "networkInterfaces") $index }}{{ else }}
+  <li>{{ $index }}: {{ $val }}</li>{{ end -}}
+  {{ end }}
+</ul>
+
+{{ end }}

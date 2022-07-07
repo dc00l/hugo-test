@@ -1,0 +1,25 @@
+<h2>Project {{ .displayName }}</h2>
+<ul>
+  {{- range $index, $val := . }}
+  {{- if in (slice "versionedResources" "folders") $index }}{{ else }}
+  <li>{{ $index }}: {{ $val }}</li>{{ end -}}
+  {{ end }}
+</ul>
+
+<h4>Folders</h4>
+<ul>
+  {{- range $index, $val := .folders }}
+  <li>{{ $index }}: {{ $val }}</li>{{ end }}
+</ul>
+
+{{ range .versionedResources -}}
+
+<h4>Resources</h4>
+<ul>
+  {{- range $index, $val := .resource }}
+  {{- if in (slice "disks" "networkInterfaces") $index }}{{ else }}
+  <li>{{ $index }}: {{ $val }}</li>{{ end -}}
+  {{ end }}
+</ul>
+
+{{ end -}}

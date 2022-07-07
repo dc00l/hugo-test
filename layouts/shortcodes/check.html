@@ -1,0 +1,8 @@
+<h2>Running Checks</h2>
+{{ $vms := $.Site.Data.resources.all }}
+{{ range $i, $vm := $vms }}
+{{ if templates.Exists ( printf "partials/%s.html" $vm.assetType ) }}
+{{ else }}
+{{ printf "partials/%s.html" $vm.assetType }} fehlt.
+{{ end }}
+{{ end }}
