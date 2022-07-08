@@ -1,0 +1,10 @@
+<ul>
+  {{- range $index, $val := . }}
+  {{- if reflect.IsSlice $val }}
+  <li>{{ $index }}: {{ partial "showSubItem" $val }}</li>
+  {{- else if  reflect.IsMap $val }}
+  <li>{{ $index }}: {{ partial "showSubItem" $val }}</li>
+  {{- else }}
+  <li>{{ $index }}: {{ $val }}</li>{{ end -}}
+  {{ end }}
+</ul>

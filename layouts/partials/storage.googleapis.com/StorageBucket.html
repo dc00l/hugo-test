@@ -1,21 +1,2 @@
- ## Storage Buckets
-
-{{ $vms := $.Site.Data.resources.all -}}
-{{ range $vms -}}
-{{ if eq .assetType "storage.googleapis.com/Bucket" -}}
-
-### {{ .displayName }} ({{ .location }})
-* DisplayName: {{ .displayName }}
-* Location: {{ .location }}
-* Project: {{ .project }}
-
-{{ range .versionedResources -}}
-
-#### Resources
-
-{{ range $index, $val := .resource }}
-* {{ $index }}: {{ $val }}{{ end }}
-
-{{ end -}}
-{{ end -}}
-{{ end -}}
+ <h3>Storage Bucket: {{ .displayName }}</h3>
+ {{ partial "showSubItem" . }}

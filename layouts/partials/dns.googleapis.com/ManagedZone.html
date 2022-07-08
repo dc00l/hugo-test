@@ -1,26 +1,2 @@
-<h2>DNS Managedzone</h2>
-<h3>{{ .displayName }}</h3>
-<ul>
-{{- range $index, $val := . }}
-  {{- if in (slice "versionedResources" "folders") $index }}{{ else }}
-  <li>{{ $index }}: {{ $val }}</li>{{ end -}}
-  {{ end }}
-</ul>
-
-<h3>Folders</h3>
-<ul>
-  {{- range $index, $val := .folders }}
-  <li>{{ $index }}: {{ $val }}</li>{{ end }}
-</ul>
-
-{{ range .versionedResources -}}
-
-<h3>Resources</h3>
-<ul>
-  {{- range $index, $val := .resource }}
-  {{- if in (slice "certificate") $index }}{{ else }}
-  <li>{{ $index }}: {{ $val }}</li>{{ end -}}
-  {{ end }}
-</ul>
-
-{{ end -}}
+<h3>Managed DNS Zone: {{ .displayName }}</h3>
+{{ partial "showSubItem" . }}
